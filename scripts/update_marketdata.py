@@ -24,11 +24,8 @@ SYMBOLS = {
     # 🇨🇦 TORONTO
     # =========================
     "^GSPTSE": "S&P/TSX Composite Index",
-    #"^TX60": "S&P/TSX 60 Index",   #não funciona
-    # Toronto (TSX 60) - troca ^TX60
-    "TX60.TS": "S&P/TSX 60 Index",  # índice no Yahoo
-    # ou, se preferir proxy via ETF:
-    # "XIU.TO": "iShares S&P/TSX 60 Index ETF"
+    # "^TX60": "S&P/TSX 60 Index",   # não funciona
+    "TX60.TS": "S&P/TSX 60 Index",
 
     # =========================
     # 🇬🇧 LONDON
@@ -65,20 +62,15 @@ SYMBOLS = {
     # 🇧🇷 BRAZIL - B3
     # =========================
     "^BVSP": "Ibovespa (IBOV)",
-    #"^IBX100": "IBrX 100", #não funciona
     "^IBX50": "IBrX 50",
-    # Brasil (IBrX 100) - troca ^IBX100
     "BRAX11.SA": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
 
     # =========================
     # 🇯🇵 JAPAN - TOKYO
     # =========================
     "^N225": "Nikkei 225",
-    #"^TOPX": "TOPIX",  #não funciona
     "1306.T": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-    # ou:
-    # "1475.T": "iShares Core TOPIX ETF (proxy do TOPIX)",
-    
+
     # =========================
     # 🇰🇷 SOUTH KOREA - SEOUL
     # =========================
@@ -90,7 +82,6 @@ SYMBOLS = {
     # =========================
     "000001.SS": "SSE Composite Index (Shanghai)",
     "000300.SS": "CSI 300 (Shanghai + Shenzhen)",
-
     "399001.SZ": "SZSE Component Index (Shenzhen)",
     "399006.SZ": "ChiNext Index (Shenzhen)",
 
@@ -131,6 +122,21 @@ def chunked(lst, n):
         yield lst[i : i + n]
 
 
+def _safe_float(x, ndigits=None):
+    """Converte para float (com round) e troca NaN por None."""
+    if x is None:
+        return None
+    try:
+        if pd.isna(x):
+            return None
+        fx = float(x)
+        if ndigits is not None:
+            fx = float(round(fx, ndigits))
+        return fx
+    except Exception:
+        return None
+
+
 def _append_nulls(results, batch):
     """Se um batch falhar, adiciona linhas com null para não quebrar o pipeline."""
     for sym in batch:
@@ -140,6 +146,10 @@ def _append_nulls(results, batch):
                 "symbol": sym,
                 "name": company_name,
                 "price": None,
+                "close_d1": None,
+                "change_pts": None,
+                "change_pct": None,
+                "daily_7d": [],
                 "vol_annual": None,
                 "vol_semiannual": None,
                 "vol_quarterly": None,
@@ -187,9 +197,34 @@ def _ann_vol_from_logret_window(logret: pd.DataFrame, window: int) -> pd.Series:
     return tail.std(axis=0, ddof=1) * np.sqrt(TRADING_DAYS)
 
 
+def _try_get_live_price(sym: str):
+    """
+    Tenta puxar o preço 'agora' via fast_info/info.
+    Se falhar, retorna None (aí o script cai no último Close diário).
+    """
+    try:
+        t = yf.Ticker(sym)
+        fi = getattr(t, "fast_info", None)
+        if fi and "lastPrice" in fi and fi["lastPrice"] is not None:
+            return fi["lastPrice"]
+    except Exception:
+        pass
+
+    try:
+        t = yf.Ticker(sym)
+        info = getattr(t, "info", None) or {}
+        p = info.get("regularMarketPrice", None)
+        if p is not None:
+            return p
+    except Exception:
+        pass
+
+    return None
+
+
 def main():
     os.makedirs("data", exist_ok=True)
-    now = datetime.now(timezone.utc).isoformat()
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     results = []
 
@@ -216,6 +251,7 @@ def main():
             _append_nulls(results, batch)
             continue
 
+        # Garante colunas para todos os símbolos do batch
         for sym in batch:
             if sym not in close.columns:
                 close[sym] = np.nan
@@ -228,9 +264,7 @@ def main():
             _append_nulls(results, batch)
             continue
 
-        last_price = close_ffill.iloc[-1]
-
-        # Log-retornos diários
+        # Log-retornos diários (vols com base em "close")
         logret = np.log(close / close.shift(1))
 
         # Vol anualizada usando todo o período
@@ -243,7 +277,34 @@ def main():
         vol_semiannual = _ann_vol_from_logret_window(logret, WINDOWS["semiannual"])
 
         for sym in batch:
-            p = last_price.get(sym, np.nan)
+            company_name = SYMBOLS.get(sym, sym)
+
+            s = close_ffill[sym].dropna()
+
+            # last_close_daily = último fechamento no dataset diário
+            last_close_daily = s.iloc[-1] if len(s) >= 1 else np.nan
+
+            # close_d1 = fechamento do pregão anterior (penúltimo close)
+            close_d1 = s.iloc[-2] if len(s) >= 2 else np.nan
+
+            # daily_7d = últimos 7 fechamentos (date + close), leve pro app
+            tail7 = s.tail(7)
+            daily_7d = [
+                {"date": idx.strftime("%Y-%m-%d"), "close": _safe_float(val, 6)}
+                for idx, val in tail7.items()
+            ]
+
+            # preço "agora" (intraday) se possível; senão, cai no último close diário
+            live_price = _try_get_live_price(sym)
+            price = live_price if live_price is not None else last_close_daily
+
+            # variação vs close_d1 (se existir)
+            if (not pd.isna(price)) and (not pd.isna(close_d1)) and float(close_d1) != 0.0:
+                change_pts = float(price) - float(close_d1)
+                change_pct = change_pts / float(close_d1)
+            else:
+                change_pts = np.nan
+                change_pct = np.nan
 
             vA = vol_annual.get(sym, np.nan)
             vW = vol_weekly.get(sym, np.nan)
@@ -251,20 +312,28 @@ def main():
             vQ = vol_quarterly.get(sym, np.nan)
             vS = vol_semiannual.get(sym, np.nan)
 
-            company_name = SYMBOLS.get(sym, sym)
-
             results.append(
                 {
                     "symbol": sym,
                     "name": company_name,
-                    "price": None if pd.isna(p) else float(round(float(p), 6)),
 
-                    # anualizada (com base na janela indicada)
-                    "vol_annual": None if pd.isna(vA) else float(round(float(vA), 8)),
-                    "vol_semiannual": None if pd.isna(vS) else float(round(float(vS), 8)),
-                    "vol_quarterly": None if pd.isna(vQ) else float(round(float(vQ), 8)),
-                    "vol_monthly": None if pd.isna(vM) else float(round(float(vM), 8)),
-                    "vol_weekly": None if pd.isna(vW) else float(round(float(vW), 8)),
+                    # preço atual (ou fallback: último close diário)
+                    "price": _safe_float(price, 6),
+
+                    # fechamento do pregão anterior e variação até o preço atual
+                    "close_d1": _safe_float(close_d1, 6),
+                    "change_pts": _safe_float(change_pts, 6),
+                    "change_pct": _safe_float(change_pct, 8),  # decimal (ex: 0.0042 = +0.42%)
+
+                    # fechamentos dos últimos 7 pregões (leve pro app)
+                    "daily_7d": daily_7d,
+
+                    # anualizada
+                    "vol_annual": _safe_float(vA, 8),
+                    "vol_semiannual": _safe_float(vS, 8),
+                    "vol_quarterly": _safe_float(vQ, 8),
+                    "vol_monthly": _safe_float(vM, 8),
+                    "vol_weekly": _safe_float(vW, 8),
                 }
             )
 
@@ -282,18 +351,19 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     if OUT_CSV:
+        # Se quiser CSV, daily_7d vira uma coluna com lista (ok), ou você pode normalizar depois
         pd.DataFrame(results).to_csv(OUT_CSV, index=False, encoding="utf-8")
 
     ok_prices = sum(1 for r in results if r["price"] is not None)
+    ok_close_d1 = sum(1 for r in results if r["close_d1"] is not None)
+    ok_change = sum(1 for r in results if r["change_pct"] is not None)
     ok_volA = sum(1 for r in results if r["vol_annual"] is not None)
-    ok_volW = sum(1 for r in results if r["vol_weekly"] is not None)
-    ok_volM = sum(1 for r in results if r["vol_monthly"] is not None)
-    ok_volQ = sum(1 for r in results if r["vol_quarterly"] is not None)
-    ok_volS = sum(1 for r in results if r["vol_semiannual"] is not None)
 
     print(f"OK: atualizado {OUT_JSON} com {len(results)} tickers.")
     print(f"   Preços OK: {ok_prices}")
-    print(f"   Vols OK: anual={ok_volA} | semanal={ok_volW} | mensal={ok_volM} | trimestral={ok_volQ} | semestral={ok_volS}")
+    print(f"   Close D-1 OK: {ok_close_d1}")
+    print(f"   Variação vs D-1 OK: {ok_change}")
+    print(f"   Vol anual OK: {ok_volA}")
 
 
 if __name__ == "__main__":
