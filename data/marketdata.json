@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-05T23:02:26Z",
+  "generated_at_utc": "2026-02-05T23:40:55Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -10,14 +10,10 @@
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
       "price": 48908.71875,
-      "close_d1": 49501.300781,
-      "change_pts": -592.582031,
-      "change_pct": -0.01197104,
+      "close_d1": 48908.71875,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 49015.601562
-        },
         {
           "date": "2026-01-29",
           "close": 49071.558594
@@ -41,26 +37,26 @@
         {
           "date": "2026-02-05",
           "close": 48908.71875
+        },
+        {
+          "date": "2026-02-06",
+          "close": 48908.71875
         }
       ],
       "vol_annual": 0.15229106,
-      "vol_semiannual": 0.10687091,
-      "vol_quarterly": 0.11932867,
-      "vol_monthly": 0.10472096,
-      "vol_weekly": 0.13868444
+      "vol_semiannual": 0.10732667,
+      "vol_quarterly": 0.11796586,
+      "vol_monthly": 0.10617322,
+      "vol_weekly": 0.15717785
     },
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
       "price": 22733.316406,
-      "close_d1": 22975.589844,
-      "change_pts": -242.273438,
-      "change_pct": -0.01054482,
+      "close_d1": 22733.316406,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 22800.099609
-        },
         {
           "date": "2026-01-29",
           "close": 22875.460938
@@ -84,26 +80,26 @@
         {
           "date": "2026-02-05",
           "close": 22733.316406
+        },
+        {
+          "date": "2026-02-06",
+          "close": 22733.316406
         }
       ],
       "vol_annual": 0.14158814,
-      "vol_semiannual": 0.09688606,
-      "vol_quarterly": 0.1032498,
-      "vol_monthly": 0.08041018,
-      "vol_weekly": 0.11818088
+      "vol_semiannual": 0.09716055,
+      "vol_quarterly": 0.10337496,
+      "vol_monthly": 0.08057824,
+      "vol_weekly": 0.1238028
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
       "price": 22540.585938,
-      "close_d1": 22904.580078,
-      "change_pts": -363.994141,
-      "change_pct": -0.01589176,
+      "close_d1": 22540.585938,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 23857.449219
-        },
         {
           "date": "2026-01-29",
           "close": 23685.119141
@@ -127,26 +123,26 @@
         {
           "date": "2026-02-05",
           "close": 22540.585938
+        },
+        {
+          "date": "2026-02-06",
+          "close": 22540.585938
         }
       ],
       "vol_annual": 0.22537555,
-      "vol_semiannual": 0.15705289,
-      "vol_quarterly": 0.1514636,
-      "vol_monthly": 0.13881259,
-      "vol_weekly": 0.14288442
+      "vol_semiannual": 0.15773705,
+      "vol_quarterly": 0.15281807,
+      "vol_monthly": 0.14223223,
+      "vol_weekly": 0.16492894
     },
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
       "price": 24548.689453,
-      "close_d1": 24891.240234,
-      "change_pts": -342.550781,
-      "change_pct": -0.0137619,
+      "close_d1": 24548.689453,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 26022.789062
-        },
         {
           "date": "2026-01-29",
           "close": 25884.300781
@@ -170,26 +166,26 @@
         {
           "date": "2026-02-05",
           "close": 24548.689453
+        },
+        {
+          "date": "2026-02-06",
+          "close": 24548.689453
         }
       ],
       "vol_annual": 0.22219734,
-      "vol_semiannual": 0.1571629,
-      "vol_quarterly": 0.15773064,
-      "vol_monthly": 0.14949083,
-      "vol_weekly": 0.1612299
+      "vol_semiannual": 0.15784136,
+      "vol_quarterly": 0.15911069,
+      "vol_monthly": 0.15276832,
+      "vol_weekly": 0.18466119
     },
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
       "price": 31994.599609,
-      "close_d1": 32571.599609,
-      "change_pts": -577.0,
-      "change_pct": -0.01771482,
+      "close_d1": 31994.599609,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 33176.101562
-        },
         {
           "date": "2026-01-29",
           "close": 33016.101562
@@ -213,24 +209,32 @@
         {
           "date": "2026-02-05",
           "close": 31994.599609
+        },
+        {
+          "date": "2026-02-06",
+          "close": 31994.599609
         }
       ],
       "vol_annual": 0.13233579,
-      "vol_semiannual": 0.12075885,
-      "vol_quarterly": 0.13471214,
-      "vol_monthly": 0.1573737,
-      "vol_weekly": 0.29617557
+      "vol_semiannual": 0.12115562,
+      "vol_quarterly": 0.13583091,
+      "vol_monthly": 0.15885364,
+      "vol_weekly": 0.19575029
     },
     {
       "symbol": "TX60.TS",
       "name": "S&P/TSX 60 Index",
       "price": 1860.569946,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
+      "close_d1": 1860.569946,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
         {
           "date": "2026-02-05",
+          "close": 1860.569946
+        },
+        {
+          "date": "2026-02-06",
           "close": 1860.569946
         }
       ],
@@ -244,14 +248,10 @@
       "symbol": "^FTSE",
       "name": "FTSE 100",
       "price": 10309.219727,
-      "close_d1": 10402.299805,
-      "change_pts": -93.080078,
-      "change_pct": -0.00894803,
+      "close_d1": 10309.219727,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 10154.400391
-        },
         {
           "date": "2026-01-29",
           "close": 10171.799805
@@ -275,26 +275,26 @@
         {
           "date": "2026-02-05",
           "close": 10309.219727
+        },
+        {
+          "date": "2026-02-06",
+          "close": 10309.219727
         }
       ],
       "vol_annual": 0.11282934,
-      "vol_semiannual": 0.08440922,
-      "vol_quarterly": 0.09245641,
-      "vol_monthly": 0.08166313,
-      "vol_weekly": 0.13303177
+      "vol_semiannual": 0.08476815,
+      "vol_quarterly": 0.09050528,
+      "vol_monthly": 0.08357961,
+      "vol_weekly": 0.15165378
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
       "price": 23103.349609,
-      "close_d1": 23333.199219,
-      "change_pts": -229.849609,
-      "change_pct": -0.00985075,
+      "close_d1": 23103.349609,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 23390.599609
-        },
         {
           "date": "2026-01-29",
           "close": 23268.400391
@@ -318,26 +318,26 @@
         {
           "date": "2026-02-05",
           "close": 23103.349609
+        },
+        {
+          "date": "2026-02-06",
+          "close": 23103.349609
         }
       ],
       "vol_annual": 0.13005666,
-      "vol_semiannual": 0.09654002,
-      "vol_quarterly": 0.09282828,
-      "vol_monthly": 0.10001322,
-      "vol_weekly": 0.1065352
+      "vol_semiannual": 0.09686227,
+      "vol_quarterly": 0.09230924,
+      "vol_monthly": 0.10261129,
+      "vol_weekly": 0.12275708
     },
     {
       "symbol": "^FCHI",
       "name": "CAC 40 (France)",
       "price": 8238.169922,
-      "close_d1": 8262.160156,
-      "change_pts": -23.990234,
-      "change_pct": -0.00290363,
+      "close_d1": 8238.169922,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 8066.680176
-        },
         {
           "date": "2026-01-29",
           "close": 8071.359863
@@ -361,26 +361,26 @@
         {
           "date": "2026-02-05",
           "close": 8238.169922
+        },
+        {
+          "date": "2026-02-06",
+          "close": 8238.169922
         }
       ],
       "vol_annual": 0.14786743,
-      "vol_semiannual": 0.11100609,
-      "vol_quarterly": 0.10085323,
-      "vol_monthly": 0.11443667,
-      "vol_weekly": 0.08593482
+      "vol_semiannual": 0.1108647,
+      "vol_quarterly": 0.09836999,
+      "vol_monthly": 0.11733318,
+      "vol_weekly": 0.09523193
     },
     {
       "symbol": "^AEX",
       "name": "AEX (Netherlands)",
       "price": 985.140015,
-      "close_d1": 990.320007,
-      "change_pts": -5.179993,
-      "change_pct": -0.00523063,
+      "close_d1": 985.140015,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 997.130005
-        },
         {
           "date": "2026-01-29",
           "close": 996.929993
@@ -404,26 +404,26 @@
         {
           "date": "2026-02-05",
           "close": 985.140015
+        },
+        {
+          "date": "2026-02-06",
+          "close": 985.140015
         }
       ],
       "vol_annual": 0.1410499,
-      "vol_semiannual": 0.11874616,
-      "vol_quarterly": 0.12746847,
-      "vol_monthly": 0.14919171,
-      "vol_weekly": 0.14556277
+      "vol_semiannual": 0.11918663,
+      "vol_quarterly": 0.12688003,
+      "vol_monthly": 0.14273261,
+      "vol_weekly": 0.15150648
     },
     {
       "symbol": "^BFX",
       "name": "BEL 20 (Belgium)",
       "price": 5525.049805,
-      "close_d1": 5545.430176,
-      "change_pts": -20.380371,
-      "change_pct": -0.00367517,
+      "close_d1": 5525.049805,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 5380.410156
-        },
         {
           "date": "2026-01-29",
           "close": 5373.549805
@@ -447,26 +447,26 @@
         {
           "date": "2026-02-05",
           "close": 5525.049805
+        },
+        {
+          "date": "2026-02-06",
+          "close": 5525.049805
         }
       ],
       "vol_annual": 0.13681589,
-      "vol_semiannual": 0.10293019,
-      "vol_quarterly": 0.09918878,
-      "vol_monthly": 0.11369132,
-      "vol_weekly": 0.10430092
+      "vol_semiannual": 0.10302001,
+      "vol_quarterly": 0.09669558,
+      "vol_monthly": 0.11655896,
+      "vol_weekly": 0.11540529
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX 40 (Germany)",
       "price": 24491.060547,
-      "close_d1": 24603.039062,
-      "change_pts": -111.978516,
-      "change_pct": -0.00455141,
+      "close_d1": 24491.060547,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 24822.789062
-        },
         {
           "date": "2026-01-29",
           "close": 24309.460938
@@ -490,26 +490,26 @@
         {
           "date": "2026-02-05",
           "close": 24491.060547
+        },
+        {
+          "date": "2026-02-06",
+          "close": 24491.060547
         }
       ],
       "vol_annual": 0.16149046,
-      "vol_semiannual": 0.12348482,
-      "vol_quarterly": 0.1233136,
-      "vol_monthly": 0.12584323,
-      "vol_weekly": 0.12802839
+      "vol_semiannual": 0.12347488,
+      "vol_quarterly": 0.1239752,
+      "vol_monthly": 0.12900383,
+      "vol_weekly": 0.1236888
     },
     {
       "symbol": "^MDAXI",
       "name": "MDAX (Germany Mid Caps)",
       "price": 31434.509766,
-      "close_d1": 31524.630859,
-      "change_pts": -90.121094,
-      "change_pct": -0.00285875,
+      "close_d1": 31434.509766,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 31640.369141
-        },
         {
           "date": "2026-01-29",
           "close": 31233.679688
@@ -533,26 +533,26 @@
         {
           "date": "2026-02-05",
           "close": 31434.509766
+        },
+        {
+          "date": "2026-02-06",
+          "close": 31434.509766
         }
       ],
       "vol_annual": 0.17604393,
-      "vol_semiannual": 0.14254614,
-      "vol_quarterly": 0.14479495,
-      "vol_monthly": 0.14997662,
-      "vol_weekly": 0.09007169
+      "vol_semiannual": 0.14285774,
+      "vol_quarterly": 0.14610934,
+      "vol_monthly": 0.15376839,
+      "vol_weekly": 0.09762223
     },
     {
       "symbol": "^SSMI",
       "name": "SMI - Swiss Market Index",
       "price": 13466.040039,
-      "close_d1": 13508.120117,
-      "change_pts": -42.080078,
-      "change_pct": -0.00311517,
+      "close_d1": 13466.040039,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 13023.80957
-        },
         {
           "date": "2026-01-29",
           "close": 13147.929688
@@ -576,26 +576,26 @@
         {
           "date": "2026-02-05",
           "close": 13466.040039
+        },
+        {
+          "date": "2026-02-06",
+          "close": 13466.040039
         }
       ],
       "vol_annual": 0.13762684,
-      "vol_semiannual": 0.10305837,
-      "vol_quarterly": 0.09992373,
-      "vol_monthly": 0.118072,
-      "vol_weekly": 0.13510939
+      "vol_semiannual": 0.1034932,
+      "vol_quarterly": 0.09258988,
+      "vol_monthly": 0.12100926,
+      "vol_weekly": 0.15501376
     },
     {
       "symbol": "^SSHI",
       "name": "SPI - Swiss Performance Index",
       "price": 18583.039062,
-      "close_d1": 18618.550781,
-      "change_pts": -35.511719,
-      "change_pct": -0.00190733,
+      "close_d1": 18583.039062,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 18035.490234
-        },
         {
           "date": "2026-01-29",
           "close": 18160.810547
@@ -619,26 +619,26 @@
         {
           "date": "2026-02-05",
           "close": 18583.039062
+        },
+        {
+          "date": "2026-02-06",
+          "close": 18583.039062
         }
       ],
       "vol_annual": 0.13012838,
-      "vol_semiannual": 0.09528548,
-      "vol_quarterly": 0.09591516,
-      "vol_monthly": 0.11147101,
-      "vol_weekly": 0.12118168
+      "vol_semiannual": 0.09569388,
+      "vol_quarterly": 0.0890248,
+      "vol_monthly": 0.11433483,
+      "vol_weekly": 0.13927303
     },
     {
       "symbol": "^BSESN",
       "name": "SENSEX (India)",
       "price": 83313.929688,
-      "close_d1": 83817.6875,
-      "change_pts": -503.757812,
-      "change_pct": -0.00601016,
+      "close_d1": 83313.929688,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 82344.679688
-        },
         {
           "date": "2026-01-29",
           "close": 82566.367188
@@ -662,26 +662,26 @@
         {
           "date": "2026-02-05",
           "close": 83313.929688
+        },
+        {
+          "date": "2026-02-06",
+          "close": 83313.929688
         }
       ],
       "vol_annual": 0.11580156,
-      "vol_semiannual": 0.0882383,
-      "vol_quarterly": 0.09675163,
-      "vol_monthly": 0.13789776,
-      "vol_weekly": 0.21242374
+      "vol_semiannual": 0.08864324,
+      "vol_quarterly": 0.09722629,
+      "vol_monthly": 0.13864393,
+      "vol_weekly": 0.23896012
     },
     {
       "symbol": "^NSEI",
       "name": "NIFTY 50 (India)",
       "price": 25642.800781,
-      "close_d1": 25776.0,
-      "change_pts": -133.199219,
-      "change_pct": -0.00516757,
+      "close_d1": 25642.800781,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 25342.75
-        },
         {
           "date": "2026-01-29",
           "close": 25418.900391
@@ -705,26 +705,26 @@
         {
           "date": "2026-02-05",
           "close": 25642.800781
+        },
+        {
+          "date": "2026-02-06",
+          "close": 25642.800781
         }
       ],
       "vol_annual": 0.11710519,
-      "vol_semiannual": 0.08997108,
-      "vol_quarterly": 0.10009847,
-      "vol_monthly": 0.14341061,
-      "vol_weekly": 0.21704788
+      "vol_semiannual": 0.09038637,
+      "vol_quarterly": 0.10049335,
+      "vol_monthly": 0.14353164,
+      "vol_weekly": 0.24390321
     },
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
       "price": 182127.25,
-      "close_d1": 181708.0,
-      "change_pts": 419.25,
-      "change_pct": 0.00230727,
+      "close_d1": 182127.25,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 184691.0
-        },
         {
           "date": "2026-01-29",
           "close": 183134.0
@@ -748,26 +748,26 @@
         {
           "date": "2026-02-05",
           "close": 182127.25
+        },
+        {
+          "date": "2026-02-06",
+          "close": 182127.25
         }
       ],
       "vol_annual": 0.15358026,
-      "vol_semiannual": 0.15761938,
-      "vol_quarterly": 0.19488543,
-      "vol_monthly": 0.20373453,
-      "vol_weekly": 0.23356223
+      "vol_semiannual": 0.15813121,
+      "vol_quarterly": 0.19464561,
+      "vol_monthly": 0.20902342,
+      "vol_weekly": 0.25485683
     },
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
       "price": 30639.529297,
-      "close_d1": 30599.400391,
-      "change_pts": 40.128906,
-      "change_pct": 0.00131143,
+      "close_d1": 30639.529297,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 31050.320312
-        },
         {
           "date": "2026-01-29",
           "close": 30824.220703
@@ -791,26 +791,26 @@
         {
           "date": "2026-02-05",
           "close": 30639.529297
+        },
+        {
+          "date": "2026-02-06",
+          "close": 30639.529297
         }
       ],
       "vol_annual": 0.15264077,
-      "vol_semiannual": 0.15692768,
-      "vol_quarterly": 0.19389831,
-      "vol_monthly": 0.20384859,
-      "vol_weekly": 0.23117612
+      "vol_semiannual": 0.157438,
+      "vol_quarterly": 0.19358492,
+      "vol_monthly": 0.2091433,
+      "vol_weekly": 0.2506295
     },
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
       "price": 152.389999,
-      "close_d1": 152.160004,
-      "change_pts": 0.229996,
-      "change_pct": 0.00151154,
+      "close_d1": 152.389999,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 154.509995
-        },
         {
           "date": "2026-01-29",
           "close": 153.259995
@@ -834,26 +834,26 @@
         {
           "date": "2026-02-05",
           "close": 152.389999
+        },
+        {
+          "date": "2026-02-06",
+          "close": 152.389999
         }
       ],
       "vol_annual": 0.15194939,
-      "vol_semiannual": 0.16362779,
-      "vol_quarterly": 0.20506068,
-      "vol_monthly": 0.20339387,
-      "vol_weekly": 0.2325643
+      "vol_semiannual": 0.16427124,
+      "vol_quarterly": 0.20511457,
+      "vol_monthly": 0.20848154,
+      "vol_weekly": 0.25356065
     },
     {
       "symbol": "^N225",
       "name": "Nikkei 225",
       "price": 53818.039062,
-      "close_d1": 54293.359375,
-      "change_pts": -475.320312,
-      "change_pct": -0.00875467,
+      "close_d1": 53818.039062,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 53358.710938
-        },
         {
           "date": "2026-01-29",
           "close": 53375.601562
@@ -877,26 +877,26 @@
         {
           "date": "2026-02-05",
           "close": 53818.039062
+        },
+        {
+          "date": "2026-02-06",
+          "close": 53818.039062
         }
       ],
       "vol_annual": 0.26966279,
-      "vol_semiannual": 0.21190483,
-      "vol_quarterly": 0.20918539,
-      "vol_monthly": 0.21909645,
-      "vol_weekly": 0.3334925
+      "vol_semiannual": 0.21140298,
+      "vol_quarterly": 0.21113131,
+      "vol_monthly": 0.21563627,
+      "vol_weekly": 0.38413278
     },
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
       "price": 3836.0,
-      "close_d1": 3838.0,
-      "change_pts": -2.0,
-      "change_pct": -0.0005211,
+      "close_d1": 3836.0,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 3708.0
-        },
         {
           "date": "2026-01-29",
           "close": 3719.0
@@ -920,26 +920,26 @@
         {
           "date": "2026-02-05",
           "close": 3836.0
+        },
+        {
+          "date": "2026-02-06",
+          "close": 3836.0
         }
       ],
       "vol_annual": 0.23222823,
-      "vol_semiannual": 0.15947285,
-      "vol_quarterly": 0.16887295,
-      "vol_monthly": 0.17985404,
-      "vol_weekly": 0.23871479
+      "vol_semiannual": 0.15916225,
+      "vol_quarterly": 0.17045562,
+      "vol_monthly": 0.18174057,
+      "vol_weekly": 0.27559558
     },
     {
       "symbol": "^KS11",
       "name": "KOSPI (South Korea)",
       "price": 5163.569824,
-      "close_d1": 5371.100098,
-      "change_pts": -207.530273,
-      "change_pct": -0.03863832,
+      "close_d1": 5163.569824,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 5170.810059
-        },
         {
           "date": "2026-01-29",
           "close": 5221.25
@@ -963,26 +963,26 @@
         {
           "date": "2026-02-05",
           "close": 5163.569824
+        },
+        {
+          "date": "2026-02-06",
+          "close": 5163.569824
         }
       ],
       "vol_annual": 0.23124228,
-      "vol_semiannual": 0.26560939,
-      "vol_quarterly": 0.30821446,
-      "vol_monthly": 0.36447463,
-      "vol_weekly": 0.75558472
+      "vol_semiannual": 0.26675039,
+      "vol_quarterly": 0.3108057,
+      "vol_monthly": 0.37333228,
+      "vol_weekly": 0.87199638
     },
     {
       "symbol": "^KQ11",
       "name": "KOSDAQ (South Korea)",
       "price": 1108.410034,
-      "close_d1": 1149.430054,
-      "change_pts": -41.02002,
-      "change_pct": -0.03568727,
+      "close_d1": 1108.410034,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 1133.52002
-        },
         {
           "date": "2026-01-29",
           "close": 1164.410034
@@ -1006,26 +1006,26 @@
         {
           "date": "2026-02-05",
           "close": 1108.410034
+        },
+        {
+          "date": "2026-02-06",
+          "close": 1108.410034
         }
       ],
       "vol_annual": 0.26245551,
-      "vol_semiannual": 0.25758745,
-      "vol_quarterly": 0.31420243,
-      "vol_monthly": 0.42010604,
-      "vol_weekly": 0.54814893
+      "vol_semiannual": 0.25873869,
+      "vol_quarterly": 0.3165369,
+      "vol_monthly": 0.42906193,
+      "vol_weekly": 0.63215943
     },
     {
       "symbol": "000001.SS",
       "name": "SSE Composite Index (Shanghai)",
       "price": 4075.916748,
-      "close_d1": 4102.202148,
-      "change_pts": -26.2854,
-      "change_pct": -0.00640763,
+      "close_d1": 4075.916748,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 4151.237793
-        },
         {
           "date": "2026-01-29",
           "close": 4157.983887
@@ -1049,26 +1049,26 @@
         {
           "date": "2026-02-05",
           "close": 4075.916748
+        },
+        {
+          "date": "2026-02-06",
+          "close": 4075.916748
         }
       ],
       "vol_annual": 0.15730947,
-      "vol_semiannual": 0.12316927,
-      "vol_quarterly": 0.11638687,
-      "vol_monthly": 0.12836255,
-      "vol_weekly": 0.24123613
+      "vol_semiannual": 0.12345738,
+      "vol_quarterly": 0.11709077,
+      "vol_monthly": 0.13168009,
+      "vol_weekly": 0.27238877
     },
     {
       "symbol": "000300.SS",
       "name": "CSI 300 (Shanghai + Shenzhen)",
       "price": 4670.418945,
-      "close_d1": 4698.680176,
-      "change_pts": -28.26123,
-      "change_pct": -0.00601472,
+      "close_d1": 4670.418945,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 4717.990234
-        },
         {
           "date": "2026-01-29",
           "close": 4753.870117
@@ -1092,26 +1092,26 @@
         {
           "date": "2026-02-05",
           "close": 4670.418945
+        },
+        {
+          "date": "2026-02-06",
+          "close": 4670.418945
         }
       ],
       "vol_annual": 0.17632106,
-      "vol_semiannual": 0.15196895,
-      "vol_quarterly": 0.12863906,
-      "vol_monthly": 0.11681687,
-      "vol_weekly": 0.21645649
+      "vol_semiannual": 0.1526185,
+      "vol_quarterly": 0.12842569,
+      "vol_monthly": 0.11685967,
+      "vol_weekly": 0.24088608
     },
     {
       "symbol": "399001.SZ",
       "name": "SZSE Component Index (Shenzhen)",
       "price": 13952.711914,
-      "close_d1": 14156.269531,
-      "change_pts": -203.557617,
-      "change_pct": -0.01437933,
+      "close_d1": 13952.711914,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 14342.889648
-        },
         {
           "date": "2026-01-29",
           "close": 14300.080078
@@ -1135,24 +1135,32 @@
         {
           "date": "2026-02-05",
           "close": 13952.711914
+        },
+        {
+          "date": "2026-02-06",
+          "close": 13952.711914
         }
       ],
       "vol_annual": 0.23299939,
-      "vol_semiannual": 0.21334778,
-      "vol_quarterly": 0.18072634,
-      "vol_monthly": 0.17681368,
-      "vol_weekly": 0.29134158
+      "vol_semiannual": 0.21376052,
+      "vol_quarterly": 0.18089884,
+      "vol_monthly": 0.1805153,
+      "vol_weekly": 0.33596614
     },
     {
       "symbol": "399006.SZ",
       "name": "ChiNext Index (Shenzhen)",
       "price": 3260.27832,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
+      "close_d1": 3260.27832,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
         {
           "date": "2026-02-05",
+          "close": 3260.27832
+        },
+        {
+          "date": "2026-02-06",
           "close": 3260.27832
         }
       ],
@@ -1166,14 +1174,10 @@
       "symbol": "^HSI",
       "name": "Hang Seng Index (HK50)",
       "price": 26885.240234,
-      "close_d1": 26847.320312,
-      "change_pts": 37.919922,
-      "change_pct": 0.00141243,
+      "close_d1": 26885.240234,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 27826.910156
-        },
         {
           "date": "2026-01-29",
           "close": 27968.089844
@@ -1197,26 +1201,26 @@
         {
           "date": "2026-02-05",
           "close": 26885.240234
+        },
+        {
+          "date": "2026-02-06",
+          "close": 26885.240234
         }
       ],
       "vol_annual": 0.22223531,
-      "vol_semiannual": 0.17508566,
-      "vol_quarterly": 0.16602595,
-      "vol_monthly": 0.17521332,
-      "vol_weekly": 0.2017175
+      "vol_semiannual": 0.17576331,
+      "vol_quarterly": 0.16744873,
+      "vol_monthly": 0.17357445,
+      "vol_weekly": 0.1903932
     },
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 8889.200195,
+      "price": 8747.299805,
       "close_d1": 8927.799805,
-      "change_pts": -38.599609,
-      "change_pct": -0.00432353,
+      "change_pts": -180.5,
+      "change_pct": -0.02021775,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 8933.900391
-        },
         {
           "date": "2026-01-29",
           "close": 8966.099609
@@ -1239,27 +1243,27 @@
         },
         {
           "date": "2026-02-05",
-          "close": 8889.200195
+          "close": 8927.799805
+        },
+        {
+          "date": "2026-02-06",
+          "close": 8747.299805
         }
       ],
-      "vol_annual": 0.1206133,
-      "vol_semiannual": 0.09945477,
-      "vol_quarterly": 0.10532181,
-      "vol_monthly": 0.09350082,
-      "vol_weekly": 0.15265839
+      "vol_annual": 0.12071165,
+      "vol_semiannual": 0.09980242,
+      "vol_quarterly": 0.10681807,
+      "vol_monthly": 0.0967226,
+      "vol_weekly": 0.17139844
     },
     {
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
       "price": 4975.870117,
-      "close_d1": 4965.5,
-      "change_pts": 10.370117,
-      "change_pct": 0.00208843,
+      "close_d1": 4975.870117,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-01-28",
-          "close": 4909.339844
-        },
         {
           "date": "2026-01-29",
           "close": 4930.029785
@@ -1283,13 +1287,17 @@
         {
           "date": "2026-02-05",
           "close": 4975.870117
+        },
+        {
+          "date": "2026-02-06",
+          "close": 4975.870117
         }
       ],
       "vol_annual": 0.12685823,
-      "vol_semiannual": 0.08269429,
-      "vol_quarterly": 0.08428183,
-      "vol_monthly": 0.08861926,
-      "vol_weekly": 0.0970295
+      "vol_semiannual": 0.0827243,
+      "vol_quarterly": 0.08218528,
+      "vol_monthly": 0.08966361,
+      "vol_weekly": 0.08679216
     }
   ]
 }
