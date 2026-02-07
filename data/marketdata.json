@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-07T16:32:31Z",
+  "generated_at_utc": "2026-02-07T17:03:08Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -373,15 +373,44 @@
       "symbol": "^AEX",
       "name": "AEX (Netherlands)",
       "price": 995.349976,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "close_d1": 985.140015,
+      "change_pts": 10.209961,
+      "change_pct": 0.01036397,
+      "daily_7d": [
+        {
+          "date": "2026-01-29",
+          "close": 996.929993
+        },
+        {
+          "date": "2026-01-30",
+          "close": 1001.650024
+        },
+        {
+          "date": "2026-02-02",
+          "close": 1009.51001
+        },
+        {
+          "date": "2026-02-03",
+          "close": 993.98999
+        },
+        {
+          "date": "2026-02-04",
+          "close": 990.320007
+        },
+        {
+          "date": "2026-02-05",
+          "close": 985.140015
+        },
+        {
+          "date": "2026-02-06",
+          "close": 995.349976
+        }
+      ],
+      "vol_annual": 0.14125098,
+      "vol_semiannual": 0.11951601,
+      "vol_quarterly": 0.12762981,
+      "vol_monthly": 0.14278395,
+      "vol_weekly": 0.16661977
     },
     {
       "symbol": "^BFX",
