@@ -24,7 +24,6 @@ SYMBOLS = {
     # 🇨🇦 TORONTO
     # =========================
     "^GSPTSE": "S&P/TSX Composite Index",
-    # "^TX60": "S&P/TSX 60 Index",   # não funciona
     "TX60.TS": "S&P/TSX 60 Index",
 
     # =========================
@@ -119,7 +118,7 @@ OUT_CSV = None  # ex.: "data/marketdata.csv"
 
 def chunked(lst, n):
     for i in range(0, len(lst), n):
-        yield lst[i : i + n]
+        yield lst[i: i + n]
 
 
 def _safe_float(x, ndigits=None):
@@ -200,7 +199,7 @@ def _ann_vol_from_logret_window(logret: pd.DataFrame, window: int) -> pd.Series:
 def _try_get_live_price(sym: str):
     """
     Tenta puxar o preço 'agora' via fast_info/info.
-    Se falhar, retorna None (aí o script cai no último Close diário).
+    Se falhar, retorna None.
     """
     try:
         t = yf.Ticker(sym)
@@ -220,6 +219,38 @@ def _try_get_live_price(sym: str):
         pass
 
     return None
+
+
+def _to_utc_day_index(idx) -> pd.DatetimeIndex:
+    """
+    Converte índice para UTC e normaliza para dia (00:00 UTC).
+    - Se vier tz-naive, assume UTC (comum no yfinance).
+    """
+    idx = pd.to_datetime(idx)
+    if getattr(idx, "tz", None) is None:
+        idx = idx.tz_localize("UTC")
+    else:
+        idx = idx.tz_convert("UTC")
+    return idx.normalize()
+
+
+def _clean_close_index(close: pd.DataFrame) -> pd.DataFrame:
+    """
+    Corrige o BUG do 'dia que não existe' / 'dia adiantado':
+    - padroniza índice em UTC-day
+    - remove datas duplicadas (keep=last)
+    - remove qualquer linha no futuro (em relação ao hoje UTC)
+    """
+    if close is None or close.empty:
+        return pd.DataFrame()
+
+    close2 = close.copy()
+    close2.index = _to_utc_day_index(close2.index)
+    close2 = close2[~close2.index.duplicated(keep="last")]
+
+    today_utc = pd.Timestamp.utcnow().normalize()
+    close2 = close2.loc[close2.index <= today_utc]
+    return close2
 
 
 def main():
@@ -245,9 +276,10 @@ def main():
             continue
 
         close = _extract_close_df(df)
+        close = _clean_close_index(close)
 
         if close.empty or len(close.index) == 0:
-            print("[WARN] Batch retornou vazio/sem Close. Registrando nulls.")
+            print("[WARN] Batch retornou vazio/sem Close após limpeza. Registrando nulls.")
             _append_nulls(results, batch)
             continue
 
@@ -255,16 +287,9 @@ def main():
         for sym in batch:
             if sym not in close.columns:
                 close[sym] = np.nan
-
         close = close[batch]
 
-        close_ffill = close.ffill()
-        if close_ffill.empty or len(close_ffill.index) == 0:
-            print("[WARN] Close após ffill ficou vazio. Registrando nulls.")
-            _append_nulls(results, batch)
-            continue
-
-        # Log-retornos diários (vols com base em "close")
+        # Log-retornos diários (vols com base em close real; sem ffill para não 'inventar' pregão)
         logret = np.log(close / close.shift(1))
 
         # Vol anualizada usando todo o período
@@ -279,28 +304,50 @@ def main():
         for sym in batch:
             company_name = SYMBOLS.get(sym, sym)
 
-            s = close_ffill[sym].dropna()
+            s = close[sym].dropna()
 
-            # last_close_daily = último fechamento no dataset diário
+            if s.empty:
+                results.append(
+                    {
+                        "symbol": sym,
+                        "name": company_name,
+                        "price": None,
+                        "close_d1": None,
+                        "change_pts": None,
+                        "change_pct": None,
+                        "daily_7d": [],
+                        "vol_annual": None,
+                        "vol_semiannual": None,
+                        "vol_quarterly": None,
+                        "vol_monthly": None,
+                        "vol_weekly": None,
+                    }
+                )
+                continue
+
+            # last_close_daily = último fechamento válido (último pregão real)
             last_close_daily = s.iloc[-1] if len(s) >= 1 else np.nan
 
             # close_d1 = fechamento do pregão anterior (penúltimo close)
             close_d1 = s.iloc[-2] if len(s) >= 2 else np.nan
 
-            # daily_7d = últimos 7 fechamentos (date + close), leve pro app
+            # daily_7d = últimos 7 fechamentos (UTC day)
             tail7 = s.tail(7)
             daily_7d = [
                 {"date": idx.strftime("%Y-%m-%d"), "close": _safe_float(val, 6)}
                 for idx, val in tail7.items()
             ]
 
-            # preço "agora" (intraday) se possível; senão, cai no último close diário
+            # preço "agora" (intraday) se possível; senão, usa o último close diário
             live_price = _try_get_live_price(sym)
             price = live_price if live_price is not None else last_close_daily
 
-            # variação vs close_d1 (se existir)
-            if (not pd.isna(price)) and (not pd.isna(close_d1)) and float(close_d1) != 0.0:
-                change_pts = float(price) - float(close_d1)
+            # >>> REGRA QUE VOCÊ PEDIU:
+            # Se NÃO tiver live_price, mantém a diferença D1-D2 (último pregão vs pregão anterior).
+            ref_price_for_change = live_price if live_price is not None else last_close_daily
+
+            if (not pd.isna(ref_price_for_change)) and (not pd.isna(close_d1)) and float(close_d1) != 0.0:
+                change_pts = float(ref_price_for_change) - float(close_d1)
                 change_pct = change_pts / float(close_d1)
             else:
                 change_pts = np.nan
@@ -320,15 +367,15 @@ def main():
                     # preço atual (ou fallback: último close diário)
                     "price": _safe_float(price, 6),
 
-                    # fechamento do pregão anterior e variação até o preço atual
+                    # fechamento do pregão anterior e variação
                     "close_d1": _safe_float(close_d1, 6),
                     "change_pts": _safe_float(change_pts, 6),
                     "change_pct": _safe_float(change_pct, 8),  # decimal (ex: 0.0042 = +0.42%)
 
-                    # fechamentos dos últimos 7 pregões (leve pro app)
+                    # fechamentos dos últimos 7 pregões (datas em UTC)
                     "daily_7d": daily_7d,
 
-                    # anualizada
+                    # vols
                     "vol_annual": _safe_float(vA, 8),
                     "vol_semiannual": _safe_float(vS, 8),
                     "vol_quarterly": _safe_float(vQ, 8),
@@ -351,7 +398,6 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     if OUT_CSV:
-        # Se quiser CSV, daily_7d vira uma coluna com lista (ok), ou você pode normalizar depois
         pd.DataFrame(results).to_csv(OUT_CSV, index=False, encoding="utf-8")
 
     ok_prices = sum(1 for r in results if r["price"] is not None)
@@ -362,7 +408,7 @@ def main():
     print(f"OK: atualizado {OUT_JSON} com {len(results)} tickers.")
     print(f"   Preços OK: {ok_prices}")
     print(f"   Close D-1 OK: {ok_close_d1}")
-    print(f"   Variação vs D-1 OK: {ok_change}")
+    print(f"   Variação OK: {ok_change}")
     print(f"   Vol anual OK: {ok_volA}")
 
 
