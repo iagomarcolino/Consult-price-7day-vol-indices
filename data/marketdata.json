@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-14T05:29:49Z",
+  "generated_at_utc": "2026-02-14T06:07:37Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -1146,11 +1146,16 @@
     {
       "symbol": "399006.SZ",
       "name": "ChiNext Index (Shenzhen)",
-      "price": null,
+      "price": 3275.958496,
       "close_d1": null,
       "change_pts": null,
       "change_pct": null,
-      "daily_7d": [],
+      "daily_7d": [
+        {
+          "date": "2026-02-13",
+          "close": 3275.958496
+        }
+      ],
       "vol_annual": null,
       "vol_semiannual": null,
       "vol_quarterly": null,
