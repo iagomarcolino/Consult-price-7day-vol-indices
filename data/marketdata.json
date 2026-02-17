@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-17T19:59:26Z",
+  "generated_at_utc": "2026-02-17T20:50:37Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,10 +9,10 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": 49587.511719,
+      "price": 49550.339844,
       "close_d1": 49500.929688,
-      "change_pts": 86.582031,
-      "change_pct": 0.0017491,
+      "change_pts": 49.410156,
+      "change_pct": 0.00099817,
       "daily_7d": [
         {
           "date": "2026-02-06",
@@ -40,7 +40,7 @@
         },
         {
           "date": "2026-02-17",
-          "close": 49587.921875
+          "close": 49550.0
         }
       ],
       "vol_annual": 0.15360063,
@@ -52,10 +52,10 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 23330.986328,
+      "price": 23295.681641,
       "close_d1": 23326.089844,
-      "change_pts": 4.896484,
-      "change_pct": 0.00020991,
+      "change_pts": -30.408203,
+      "change_pct": -0.00130361,
       "daily_7d": [
         {
           "date": "2026-02-06",
@@ -83,7 +83,7 @@
         },
         {
           "date": "2026-02-17",
-          "close": 23330.986328
+          "close": 23295.681641
         }
       ],
       "vol_annual": 0.14278107,
@@ -95,10 +95,10 @@
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 22624.027344,
+      "price": 22583.246094,
       "close_d1": 22546.669922,
-      "change_pts": 77.357422,
-      "change_pct": 0.00343099,
+      "change_pts": 36.576172,
+      "change_pct": 0.00162224,
       "daily_7d": [
         {
           "date": "2026-02-06",
@@ -126,7 +126,7 @@
         },
         {
           "date": "2026-02-17",
-          "close": 22624.027344
+          "close": 22583.246094
         }
       ],
       "vol_annual": 0.2260013,
@@ -138,10 +138,10 @@
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 24746.697266,
+      "price": 24702.378906,
       "close_d1": 24732.730469,
-      "change_pts": 13.966797,
-      "change_pct": 0.00056471,
+      "change_pts": -30.351562,
+      "change_pct": -0.00122718,
       "daily_7d": [
         {
           "date": "2026-02-06",
@@ -169,7 +169,7 @@
         },
         {
           "date": "2026-02-17",
-          "close": 24746.697266
+          "close": 24702.378906
         }
       ],
       "vol_annual": 0.22262264,
@@ -181,10 +181,10 @@
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 32904.359375,
+      "price": 32923.921875,
       "close_d1": 33073.699219,
-      "change_pts": -169.339844,
-      "change_pct": -0.00512008,
+      "change_pts": -149.777344,
+      "change_pct": -0.00452859,
       "daily_7d": [
         {
           "date": "2026-02-06",
@@ -212,7 +212,7 @@
         },
         {
           "date": "2026-02-17",
-          "close": 32904.359375
+          "close": 32923.921875
         }
       ],
       "vol_annual": 0.13509328,
@@ -224,14 +224,14 @@
     {
       "symbol": "TX60.TS",
       "name": "S&P/TSX 60 Index",
-      "price": 1909.319946,
+      "price": 1910.719971,
       "close_d1": null,
       "change_pts": null,
       "change_pct": null,
       "daily_7d": [
         {
           "date": "2026-02-17",
-          "close": 1909.319946
+          "close": 1910.719971
         }
       ],
       "vol_annual": null,
