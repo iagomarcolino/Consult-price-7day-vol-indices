@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-18T22:53:55Z",
+  "generated_at_utc": "2026-02-18T23:31:24Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -802,10 +802,10 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 155.210007,
+      "price": 154.929993,
       "close_d1": 155.940002,
-      "change_pts": -0.729996,
-      "change_pct": -0.00468126,
+      "change_pts": -1.01001,
+      "change_pct": -0.00647691,
       "daily_7d": [
         {
           "date": "2026-02-06",
@@ -833,7 +833,7 @@
         },
         {
           "date": "2026-02-18",
-          "close": 155.210007
+          "close": 154.929993
         }
       ],
       "vol_annual": 0.15377108,
@@ -1208,11 +1208,15 @@
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 9007.0,
-      "close_d1": 8958.900391,
-      "change_pts": 48.099609,
-      "change_pct": 0.00536892,
+      "price": 9086.0,
+      "close_d1": 8966.799805,
+      "change_pts": 119.200195,
+      "change_pct": 0.0132935,
       "daily_7d": [
+        {
+          "date": "2026-02-09",
+          "close": 8912.099609
+        },
         {
           "date": "2026-02-10",
           "close": 8867.400391
@@ -1236,17 +1240,13 @@
         {
           "date": "2026-02-17",
           "close": 8958.900391
-        },
-        {
-          "date": "2026-02-18",
-          "close": 9007.0
         }
       ],
-      "vol_annual": 0.12365858,
-      "vol_semiannual": 0.11156761,
-      "vol_quarterly": 0.11427535,
-      "vol_monthly": 0.16641899,
-      "vol_weekly": 0.12950609
+      "vol_annual": 0.12390698,
+      "vol_semiannual": 0.11176642,
+      "vol_quarterly": 0.11495428,
+      "vol_monthly": 0.17022815,
+      "vol_weekly": 0.13839848
     },
     {
       "symbol": "^STI",
