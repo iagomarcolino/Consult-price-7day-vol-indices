@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-19T18:07:46Z",
+  "generated_at_utc": "2026-02-19T19:10:56Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,22 +9,18 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": 49255.089844,
-      "close_d1": 49533.191406,
-      "change_pts": -278.101562,
-      "change_pct": -0.00561445,
+      "price": 49378.058594,
+      "close_d1": 49662.660156,
+      "change_pts": -284.601562,
+      "change_pct": -0.0057307,
       "daily_7d": [
-        {
-          "date": "2026-02-06",
-          "close": 50115.671875
-        },
-        {
-          "date": "2026-02-09",
-          "close": 50135.871094
-        },
         {
           "date": "2026-02-10",
           "close": 50188.140625
+        },
+        {
+          "date": "2026-02-11",
+          "close": 50121.398438
         },
         {
           "date": "2026-02-12",
@@ -41,29 +37,33 @@
         {
           "date": "2026-02-18",
           "close": 49662.660156
+        },
+        {
+          "date": "2026-02-19",
+          "close": 49378.058594
         }
       ],
-      "vol_annual": 0.15758862,
-      "vol_semiannual": 0.11735344,
-      "vol_quarterly": 0.12684124,
-      "vol_monthly": 0.14549744,
-      "vol_weekly": 0.01819595
+      "vol_annual": 0.15296126,
+      "vol_semiannual": 0.11171703,
+      "vol_quarterly": 0.1174375,
+      "vol_monthly": 0.13533549,
+      "vol_weekly": 0.0703562
     },
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 23272.535156,
+      "price": 23299.794922,
       "close_d1": 23387.490234,
-      "change_pts": -114.955078,
-      "change_pct": -0.00491524,
+      "change_pts": -87.695312,
+      "change_pct": -0.00374967,
       "daily_7d": [
-        {
-          "date": "2026-02-09",
-          "close": 23340.740234
-        },
         {
           "date": "2026-02-10",
           "close": 23398.109375
+        },
+        {
+          "date": "2026-02-11",
+          "close": 23479.730469
         },
         {
           "date": "2026-02-12",
@@ -83,30 +83,30 @@
         },
         {
           "date": "2026-02-19",
-          "close": 23272.535156
+          "close": 23299.794922
         }
       ],
-      "vol_annual": 0.14714946,
-      "vol_semiannual": 0.10690168,
-      "vol_quarterly": 0.11380668,
-      "vol_monthly": 0.11955998,
-      "vol_weekly": 0.09090296
+      "vol_annual": 0.14240758,
+      "vol_semiannual": 0.10218868,
+      "vol_quarterly": 0.10399774,
+      "vol_monthly": 0.11860899,
+      "vol_weekly": 0.08039754
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 22623.810547,
+      "price": 22655.669922,
       "close_d1": 22753.630859,
-      "change_pts": -129.820312,
-      "change_pct": -0.00570548,
+      "change_pts": -97.960938,
+      "change_pct": -0.00430529,
       "daily_7d": [
-        {
-          "date": "2026-02-09",
-          "close": 23238.669922
-        },
         {
           "date": "2026-02-10",
           "close": 23102.470703
+        },
+        {
+          "date": "2026-02-11",
+          "close": 23066.470703
         },
         {
           "date": "2026-02-12",
@@ -126,30 +126,30 @@
         },
         {
           "date": "2026-02-19",
-          "close": 22623.699219
+          "close": 22655.447266
         }
       ],
-      "vol_annual": 0.23185107,
-      "vol_semiannual": 0.1634538,
-      "vol_quarterly": 0.16431339,
-      "vol_monthly": 0.18137912,
-      "vol_weekly": 0.11087255
+      "vol_annual": 0.22488215,
+      "vol_semiannual": 0.16131108,
+      "vol_quarterly": 0.13836581,
+      "vol_monthly": 0.17193522,
+      "vol_weekly": 0.10228101
     },
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 24731.970703,
+      "price": 24765.513672,
       "close_d1": 24898.869141,
-      "change_pts": -166.898438,
-      "change_pct": -0.00670305,
+      "change_pts": -133.355469,
+      "change_pct": -0.00535588,
       "daily_7d": [
-        {
-          "date": "2026-02-09",
-          "close": 25268.140625
-        },
         {
           "date": "2026-02-10",
           "close": 25127.640625
+        },
+        {
+          "date": "2026-02-11",
+          "close": 25201.259766
         },
         {
           "date": "2026-02-12",
@@ -169,30 +169,30 @@
         },
         {
           "date": "2026-02-19",
-          "close": 24732.083984
+          "close": 24765.513672
         }
       ],
-      "vol_annual": 0.22752299,
-      "vol_semiannual": 0.16182194,
-      "vol_quarterly": 0.16789235,
-      "vol_monthly": 0.1801342,
-      "vol_weekly": 0.1170087
+      "vol_annual": 0.22135864,
+      "vol_semiannual": 0.16205802,
+      "vol_quarterly": 0.14631498,
+      "vol_monthly": 0.1763367,
+      "vol_weekly": 0.10587439
     },
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 33381.628906,
+      "price": 33438.578125,
       "close_d1": 33389.699219,
-      "change_pts": -8.070312,
-      "change_pct": -0.0002417,
+      "change_pts": 48.878906,
+      "change_pct": 0.00146389,
       "daily_7d": [
-        {
-          "date": "2026-02-09",
-          "close": 33023.300781
-        },
         {
           "date": "2026-02-10",
           "close": 33256.800781
+        },
+        {
+          "date": "2026-02-11",
+          "close": 33254.199219
         },
         {
           "date": "2026-02-12",
@@ -212,23 +212,28 @@
         },
         {
           "date": "2026-02-19",
-          "close": 33381.628906
+          "close": 33438.578125
         }
       ],
-      "vol_annual": 0.14057012,
-      "vol_semiannual": 0.13669642,
-      "vol_quarterly": 0.1541355,
-      "vol_monthly": 0.21617747,
-      "vol_weekly": 0.15821029
+      "vol_annual": 0.13520878,
+      "vol_semiannual": 0.13372304,
+      "vol_quarterly": 0.14470815,
+      "vol_monthly": 0.21592674,
+      "vol_weekly": 0.14288687
     },
     {
       "symbol": "TX60.TS",
       "name": "S&P/TSX 60 Index",
-      "price": null,
+      "price": 1939.119995,
       "close_d1": null,
       "change_pts": null,
       "change_pct": null,
-      "daily_7d": [],
+      "daily_7d": [
+        {
+          "date": "2026-02-19",
+          "close": 1939.119995
+        }
+      ],
       "vol_annual": null,
       "vol_semiannual": null,
       "vol_quarterly": null,
@@ -244,8 +249,8 @@
       "change_pct": -0.00553613,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 10353.799805
+          "date": "2026-02-11",
+          "close": 10472.099609
         },
         {
           "date": "2026-02-12",
@@ -272,10 +277,10 @@
           "close": 10627.040039
         }
       ],
-      "vol_annual": 0.11741477,
-      "vol_semiannual": 0.0870811,
-      "vol_quarterly": 0.08784233,
-      "vol_monthly": 0.08759204,
+      "vol_annual": 0.11353989,
+      "vol_semiannual": 0.08738664,
+      "vol_quarterly": 0.08672598,
+      "vol_monthly": 0.09814452,
       "vol_weekly": 0.10515775
     },
     {
@@ -287,8 +292,8 @@
       "change_pct": -0.00476688,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 23469.300781
+          "date": "2026-02-11",
+          "close": 23416.5
         },
         {
           "date": "2026-02-12",
@@ -315,10 +320,10 @@
           "close": 23573.490234
         }
       ],
-      "vol_annual": 0.13388264,
-      "vol_semiannual": 0.09782812,
-      "vol_quarterly": 0.09169275,
-      "vol_monthly": 0.0915365,
+      "vol_annual": 0.12977788,
+      "vol_semiannual": 0.09634226,
+      "vol_quarterly": 0.08732181,
+      "vol_monthly": 0.08912914,
       "vol_weekly": 0.08640046
     },
     {
@@ -330,8 +335,8 @@
       "change_pct": -0.00358879,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 8327.879883
+          "date": "2026-02-11",
+          "close": 8313.240234
         },
         {
           "date": "2026-02-12",
@@ -358,10 +363,10 @@
           "close": 8398.780273
         }
       ],
-      "vol_annual": 0.15022105,
-      "vol_semiannual": 0.10903488,
-      "vol_quarterly": 0.09516594,
-      "vol_monthly": 0.08075089,
+      "vol_annual": 0.14660566,
+      "vol_semiannual": 0.10389167,
+      "vol_quarterly": 0.08714673,
+      "vol_monthly": 0.08183773,
       "vol_weekly": 0.0830218
     },
     {
@@ -373,8 +378,8 @@
       "change_pct": -0.00282025,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 1004.140015
+          "date": "2026-02-11",
+          "close": 1008.960022
         },
         {
           "date": "2026-02-12",
@@ -401,10 +406,10 @@
           "close": 1007.690002
         }
       ],
-      "vol_annual": 0.14721127,
-      "vol_semiannual": 0.12883936,
-      "vol_quarterly": 0.14602192,
-      "vol_monthly": 0.11793523,
+      "vol_annual": 0.14111553,
+      "vol_semiannual": 0.12442579,
+      "vol_quarterly": 0.13055221,
+      "vol_monthly": 0.12802684,
       "vol_weekly": 0.1089107
     },
     {
@@ -416,8 +421,8 @@
       "change_pct": -0.00236004,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 5582.640137
+          "date": "2026-02-11",
+          "close": 5594.879883
         },
         {
           "date": "2026-02-12",
@@ -444,10 +449,10 @@
           "close": 5664.430176
         }
       ],
-      "vol_annual": 0.14158801,
-      "vol_semiannual": 0.10377693,
-      "vol_quarterly": 0.09387255,
-      "vol_monthly": 0.09495111,
+      "vol_annual": 0.13674702,
+      "vol_semiannual": 0.10366931,
+      "vol_quarterly": 0.08907926,
+      "vol_monthly": 0.09384179,
       "vol_weekly": 0.08245688
     },
     {
@@ -459,8 +464,8 @@
       "change_pct": -0.00928233,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 24987.849609
+          "date": "2026-02-11",
+          "close": 24856.150391
         },
         {
           "date": "2026-02-12",
@@ -487,10 +492,10 @@
           "close": 25043.570312
         }
       ],
-      "vol_annual": 0.16581182,
-      "vol_semiannual": 0.12607438,
-      "vol_quarterly": 0.12530128,
-      "vol_monthly": 0.13513834,
+      "vol_annual": 0.16114473,
+      "vol_semiannual": 0.12653341,
+      "vol_quarterly": 0.11298466,
+      "vol_monthly": 0.13307707,
       "vol_weekly": 0.13501141
     },
     {
@@ -502,8 +507,8 @@
       "change_pct": -0.00829214,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 31962.210938
+          "date": "2026-02-11",
+          "close": 31618.890625
         },
         {
           "date": "2026-02-12",
@@ -530,10 +535,10 @@
           "close": 31479.009766
         }
       ],
-      "vol_annual": 0.1831337,
-      "vol_semiannual": 0.15091462,
-      "vol_quarterly": 0.16476496,
-      "vol_monthly": 0.1572534,
+      "vol_annual": 0.17647933,
+      "vol_semiannual": 0.14473704,
+      "vol_quarterly": 0.13887672,
+      "vol_monthly": 0.142076,
       "vol_weekly": 0.10562469
     },
     {
@@ -545,8 +550,8 @@
       "change_pct": -0.00053959,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 13518.219727
+          "date": "2026-02-11",
+          "close": 13547.080078
         },
         {
           "date": "2026-02-12",
@@ -573,10 +578,10 @@
           "close": 13799.589844
         }
       ],
-      "vol_annual": 0.14152953,
-      "vol_semiannual": 0.10403751,
-      "vol_quarterly": 0.08808104,
-      "vol_monthly": 0.10427997,
+      "vol_annual": 0.13715056,
+      "vol_semiannual": 0.10187703,
+      "vol_quarterly": 0.086086,
+      "vol_monthly": 0.10427499,
       "vol_weekly": 0.04453591
     },
     {
@@ -588,8 +593,8 @@
       "change_pct": -0.00082533,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 18691.339844
+          "date": "2026-02-11",
+          "close": 18684.410156
         },
         {
           "date": "2026-02-12",
@@ -616,10 +621,10 @@
           "close": 19020.189453
         }
       ],
-      "vol_annual": 0.13381587,
-      "vol_semiannual": 0.09605183,
-      "vol_quarterly": 0.083772,
-      "vol_monthly": 0.09526537,
+      "vol_annual": 0.12966409,
+      "vol_semiannual": 0.09398169,
+      "vol_quarterly": 0.08032869,
+      "vol_monthly": 0.09533654,
       "vol_weekly": 0.04731991
     },
     {
@@ -631,8 +636,8 @@
       "change_pct": -0.01476229,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 84273.921875
+          "date": "2026-02-11",
+          "close": 84233.640625
         },
         {
           "date": "2026-02-12",
@@ -659,10 +664,10 @@
           "close": 82498.140625
         }
       ],
-      "vol_annual": 0.11888578,
-      "vol_semiannual": 0.09511066,
-      "vol_quarterly": 0.10705084,
-      "vol_monthly": 0.14275747,
+      "vol_annual": 0.11692476,
+      "vol_semiannual": 0.09115465,
+      "vol_quarterly": 0.10427055,
+      "vol_monthly": 0.14188125,
       "vol_weekly": 0.16213714
     },
     {
@@ -674,8 +679,8 @@
       "change_pct": -0.01413668,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 25935.150391
+          "date": "2026-02-11",
+          "close": 25953.849609
         },
         {
           "date": "2026-02-12",
@@ -702,24 +707,20 @@
           "close": 25454.349609
         }
       ],
-      "vol_annual": 0.12043289,
-      "vol_semiannual": 0.09693216,
-      "vol_quarterly": 0.11069929,
-      "vol_monthly": 0.14410448,
+      "vol_annual": 0.11821782,
+      "vol_semiannual": 0.09281458,
+      "vol_quarterly": 0.10739121,
+      "vol_monthly": 0.14399169,
       "vol_weekly": 0.16289145
     },
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 188311.453125,
+      "price": 188255.75,
       "close_d1": 186016.0,
-      "change_pts": 2295.453125,
-      "change_pct": 0.01234008,
+      "change_pts": 2239.75,
+      "change_pct": 0.01204063,
       "daily_7d": [
-        {
-          "date": "2026-02-06",
-          "close": 182950.0
-        },
         {
           "date": "2026-02-09",
           "close": 186241.0
@@ -727,6 +728,10 @@
         {
           "date": "2026-02-10",
           "close": 185929.0
+        },
+        {
+          "date": "2026-02-11",
+          "close": 189699.0
         },
         {
           "date": "2026-02-12",
@@ -742,27 +747,23 @@
         },
         {
           "date": "2026-02-19",
-          "close": 188311.453125
+          "close": 188255.75
         }
       ],
-      "vol_annual": 0.15786098,
-      "vol_semiannual": 0.16132876,
-      "vol_quarterly": 0.19793837,
-      "vol_monthly": 0.21492986,
-      "vol_weekly": 0.21577631
+      "vol_annual": 0.15564159,
+      "vol_semiannual": 0.15732735,
+      "vol_quarterly": 0.20207413,
+      "vol_monthly": 0.20559483,
+      "vol_weekly": 0.21245544
     },
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 31688.800781,
+      "price": 31675.939453,
       "close_d1": 31307.419922,
-      "change_pts": 381.380859,
-      "change_pct": 0.0121818,
+      "change_pts": 368.519531,
+      "change_pct": 0.011771,
       "daily_7d": [
-        {
-          "date": "2026-02-06",
-          "close": 30768.150391
-        },
         {
           "date": "2026-02-09",
           "close": 31339.119141
@@ -770,6 +771,10 @@
         {
           "date": "2026-02-10",
           "close": 31290.970703
+        },
+        {
+          "date": "2026-02-11",
+          "close": 31944.740234
         },
         {
           "date": "2026-02-12",
@@ -785,27 +790,23 @@
         },
         {
           "date": "2026-02-19",
-          "close": 31688.800781
+          "close": 31675.939453
         }
       ],
-      "vol_annual": 0.15717725,
-      "vol_semiannual": 0.16083986,
-      "vol_quarterly": 0.19702401,
-      "vol_monthly": 0.21541088,
-      "vol_weekly": 0.2154877
+      "vol_annual": 0.15479381,
+      "vol_semiannual": 0.15677326,
+      "vol_quarterly": 0.20113294,
+      "vol_monthly": 0.20592241,
+      "vol_weekly": 0.21093097
     },
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 157.449997,
+      "price": 157.300003,
       "close_d1": 155.210007,
-      "change_pts": 2.23999,
-      "change_pct": 0.014432,
+      "change_pts": 2.089996,
+      "change_pct": 0.0134656,
       "daily_7d": [
-        {
-          "date": "2026-02-06",
-          "close": 153.059998
-        },
         {
           "date": "2026-02-09",
           "close": 155.759995
@@ -813,6 +814,10 @@
         {
           "date": "2026-02-10",
           "close": 155.589996
+        },
+        {
+          "date": "2026-02-11",
+          "close": 158.679993
         },
         {
           "date": "2026-02-12",
@@ -828,14 +833,14 @@
         },
         {
           "date": "2026-02-19",
-          "close": 157.449997
+          "close": 157.300003
         }
       ],
-      "vol_annual": 0.1571685,
-      "vol_semiannual": 0.16799884,
-      "vol_quarterly": 0.20852408,
-      "vol_monthly": 0.21493239,
-      "vol_weekly": 0.23974318
+      "vol_annual": 0.15407849,
+      "vol_semiannual": 0.16478469,
+      "vol_quarterly": 0.21185195,
+      "vol_monthly": 0.20632158,
+      "vol_weekly": 0.22904467
     },
     {
       "symbol": "^N225",
@@ -874,10 +879,10 @@
           "close": 57467.828125
         }
       ],
-      "vol_annual": 0.27139782,
-      "vol_semiannual": 0.22118094,
-      "vol_quarterly": 0.2287115,
-      "vol_monthly": 0.23864702,
+      "vol_annual": 0.27236133,
+      "vol_semiannual": 0.21929937,
+      "vol_quarterly": 0.20439467,
+      "vol_monthly": 0.24911632,
       "vol_weekly": 0.13868145
     },
     {
@@ -917,10 +922,10 @@
           "close": 4046.0
         }
       ],
-      "vol_annual": 0.23140724,
-      "vol_semiannual": 0.16711655,
-      "vol_quarterly": 0.18283705,
-      "vol_monthly": 0.2062507,
+      "vol_annual": 0.23424368,
+      "vol_semiannual": 0.16765737,
+      "vol_quarterly": 0.1731744,
+      "vol_monthly": 0.21182015,
       "vol_weekly": 0.20031569
     },
     {
@@ -932,10 +937,6 @@
       "change_pct": 0.03091337,
       "daily_7d": [
         {
-          "date": "2026-02-05",
-          "close": 5163.569824
-        },
-        {
           "date": "2026-02-06",
           "close": 5089.140137
         },
@@ -946,6 +947,10 @@
         {
           "date": "2026-02-10",
           "close": 5301.689941
+        },
+        {
+          "date": "2026-02-11",
+          "close": 5354.490234
         },
         {
           "date": "2026-02-12",
@@ -960,10 +965,10 @@
           "close": 5677.25
         }
       ],
-      "vol_annual": 0.24568466,
-      "vol_semiannual": 0.28249164,
-      "vol_quarterly": 0.3325103,
-      "vol_monthly": 0.45366303,
+      "vol_annual": 0.23490306,
+      "vol_semiannual": 0.27591168,
+      "vol_quarterly": 0.29244378,
+      "vol_monthly": 0.44369742,
       "vol_weekly": null
     },
     {
@@ -975,10 +980,6 @@
       "change_pct": 0.04939065,
       "daily_7d": [
         {
-          "date": "2026-02-05",
-          "close": 1108.410034
-        },
-        {
           "date": "2026-02-06",
           "close": 1080.77002
         },
@@ -989,6 +990,10 @@
         {
           "date": "2026-02-10",
           "close": 1115.199951
+        },
+        {
+          "date": "2026-02-11",
+          "close": 1114.869995
         },
         {
           "date": "2026-02-12",
@@ -1003,10 +1008,10 @@
           "close": 1160.709961
         }
       ],
-      "vol_annual": 0.27912085,
-      "vol_semiannual": 0.27688966,
-      "vol_quarterly": 0.33482961,
-      "vol_monthly": 0.5139219,
+      "vol_annual": 0.26621863,
+      "vol_semiannual": 0.26948038,
+      "vol_quarterly": 0.31751573,
+      "vol_monthly": 0.49689103,
       "vol_weekly": null
     },
     {
@@ -1017,10 +1022,6 @@
       "change_pts": -51.945068,
       "change_pct": -0.01256527,
       "daily_7d": [
-        {
-          "date": "2026-02-04",
-          "close": 4102.202148
-        },
         {
           "date": "2026-02-05",
           "close": 4075.916992
@@ -1038,6 +1039,10 @@
           "close": 4128.373047
         },
         {
+          "date": "2026-02-11",
+          "close": 4131.984863
+        },
+        {
           "date": "2026-02-12",
           "close": 4134.018066
         },
@@ -1046,10 +1051,10 @@
           "close": 4082.072998
         }
       ],
-      "vol_annual": 0.16867537,
-      "vol_semiannual": 0.12701729,
-      "vol_quarterly": 0.12239586,
-      "vol_monthly": 0.14818152,
+      "vol_annual": 0.15731399,
+      "vol_semiannual": 0.119474,
+      "vol_quarterly": 0.10938702,
+      "vol_monthly": 0.14806123,
       "vol_weekly": null
     },
     {
@@ -1060,10 +1065,6 @@
       "change_pts": -59.169922,
       "change_pct": -0.01253712,
       "daily_7d": [
-        {
-          "date": "2026-02-04",
-          "close": 4698.680176
-        },
         {
           "date": "2026-02-05",
           "close": 4670.419922
@@ -1081,6 +1082,10 @@
           "close": 4724.299805
         },
         {
+          "date": "2026-02-11",
+          "close": 4713.819824
+        },
+        {
           "date": "2026-02-12",
           "close": 4719.580078
         },
@@ -1089,10 +1094,10 @@
           "close": 4660.410156
         }
       ],
-      "vol_annual": 0.18882213,
-      "vol_semiannual": 0.15665036,
-      "vol_quarterly": 0.13073862,
-      "vol_monthly": 0.14516418,
+      "vol_annual": 0.17671868,
+      "vol_semiannual": 0.14813586,
+      "vol_quarterly": 0.11931117,
+      "vol_monthly": 0.14534246,
       "vol_weekly": null
     },
     {
@@ -1103,10 +1108,6 @@
       "change_pts": -182.80957,
       "change_pct": -0.0127991,
       "daily_7d": [
-        {
-          "date": "2026-02-04",
-          "close": 14156.269531
-        },
         {
           "date": "2026-02-05",
           "close": 13952.709961
@@ -1124,6 +1125,10 @@
           "close": 14210.629883
         },
         {
+          "date": "2026-02-11",
+          "close": 14160.929688
+        },
+        {
           "date": "2026-02-12",
           "close": 14283.0
         },
@@ -1132,10 +1137,10 @@
           "close": 14100.19043
         }
       ],
-      "vol_annual": 0.2474665,
-      "vol_semiannual": 0.21836864,
-      "vol_quarterly": 0.17806606,
-      "vol_monthly": 0.19239399,
+      "vol_annual": 0.23237715,
+      "vol_semiannual": 0.21187187,
+      "vol_quarterly": 0.16647506,
+      "vol_monthly": 0.19259698,
       "vol_weekly": null
     },
     {
@@ -1166,10 +1171,6 @@
       "change_pct": 0.00522527,
       "daily_7d": [
         {
-          "date": "2026-02-05",
-          "close": 26885.240234
-        },
-        {
           "date": "2026-02-06",
           "close": 26559.949219
         },
@@ -1180,6 +1181,10 @@
         {
           "date": "2026-02-10",
           "close": 27183.150391
+        },
+        {
+          "date": "2026-02-11",
+          "close": 27266.380859
         },
         {
           "date": "2026-02-12",
@@ -1194,10 +1199,10 @@
           "close": 26705.939453
         }
       ],
-      "vol_annual": 0.23022354,
-      "vol_semiannual": 0.18710008,
-      "vol_quarterly": 0.18286761,
-      "vol_monthly": 0.1996998,
+      "vol_annual": 0.22213537,
+      "vol_semiannual": 0.17742621,
+      "vol_quarterly": 0.15796335,
+      "vol_monthly": 0.2012435,
       "vol_weekly": 0.25344444
     },
     {
@@ -1209,8 +1214,8 @@
       "change_pct": 0.00879318,
       "daily_7d": [
         {
-          "date": "2026-02-10",
-          "close": 8867.400391
+          "date": "2026-02-11",
+          "close": 9014.799805
         },
         {
           "date": "2026-02-12",
@@ -1237,10 +1242,10 @@
           "close": 9086.200195
         }
       ],
-      "vol_annual": 0.1286191,
-      "vol_semiannual": 0.11480481,
-      "vol_quarterly": 0.1321733,
-      "vol_monthly": 0.17326445,
+      "vol_annual": 0.12384203,
+      "vol_semiannual": 0.11222085,
+      "vol_quarterly": 0.11267821,
+      "vol_monthly": 0.16801706,
       "vol_weekly": 0.14385351
     },
     {
@@ -1252,16 +1257,16 @@
       "change_pct": 0.01275265,
       "daily_7d": [
         {
-          "date": "2026-02-06",
-          "close": 4934.410156
-        },
-        {
           "date": "2026-02-09",
           "close": 4960.830078
         },
         {
           "date": "2026-02-10",
           "close": 4964.25
+        },
+        {
+          "date": "2026-02-11",
+          "close": 4984.580078
         },
         {
           "date": "2026-02-12",
@@ -1280,10 +1285,10 @@
           "close": 5001.560059
         }
       ],
-      "vol_annual": 0.13205389,
-      "vol_semiannual": 0.09059478,
-      "vol_quarterly": 0.09343078,
-      "vol_monthly": 0.12313549,
+      "vol_annual": 0.12750655,
+      "vol_semiannual": 0.08578717,
+      "vol_quarterly": 0.08666861,
+      "vol_monthly": 0.11841094,
       "vol_weekly": 0.17994224
     }
   ]
