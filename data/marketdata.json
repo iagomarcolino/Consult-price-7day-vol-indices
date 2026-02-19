@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-19T23:05:14Z",
+  "generated_at_utc": "2026-02-19T23:45:58Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -802,10 +802,10 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 157.589996,
+      "price": 156.940002,
       "close_d1": 155.210007,
-      "change_pts": 2.37999,
-      "change_pct": 0.015334,
+      "change_pts": 1.729996,
+      "change_pct": 0.01114616,
       "daily_7d": [
         {
           "date": "2026-02-09",
@@ -833,14 +833,14 @@
         },
         {
           "date": "2026-02-19",
-          "close": 157.589996
+          "close": 156.940002
         }
       ],
-      "vol_annual": 0.15418229,
-      "vol_semiannual": 0.16507045,
-      "vol_quarterly": 0.21229149,
-      "vol_monthly": 0.20750099,
-      "vol_weekly": 0.24971962
+      "vol_annual": 0.15396935,
+      "vol_semiannual": 0.16449161,
+      "vol_quarterly": 0.21140844,
+      "vol_monthly": 0.20516831,
+      "vol_weekly": 0.20332549
     },
     {
       "symbol": "^N225",
@@ -1208,11 +1208,15 @@
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 9086.200195,
-      "close_d1": 9007.0,
-      "change_pts": 79.200195,
-      "change_pct": 0.00879318,
+      "price": 9056.299805,
+      "close_d1": 8958.900391,
+      "change_pts": 97.399414,
+      "change_pct": 0.0108718,
       "daily_7d": [
+        {
+          "date": "2026-02-10",
+          "close": 8867.400391
+        },
         {
           "date": "2026-02-11",
           "close": 9014.799805
@@ -1236,17 +1240,13 @@
         {
           "date": "2026-02-18",
           "close": 9007.0
-        },
-        {
-          "date": "2026-02-19",
-          "close": 9086.200195
         }
       ],
-      "vol_annual": 0.1235375,
-      "vol_semiannual": 0.11222085,
-      "vol_quarterly": 0.11267821,
-      "vol_monthly": 0.16801706,
-      "vol_weekly": 0.14385351
+      "vol_annual": 0.12351038,
+      "vol_semiannual": 0.11196896,
+      "vol_quarterly": 0.11246078,
+      "vol_monthly": 0.17035814,
+      "vol_weekly": 0.1455433
     },
     {
       "symbol": "^STI",
