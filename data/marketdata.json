@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-21T11:31:15Z",
+  "generated_at_utc": "2026-02-21T11:55:38Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -716,16 +716,45 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 190534.0,
+      "close_d1": 188534.0,
+      "change_pts": 2000.0,
+      "change_pct": 0.01060817,
+      "daily_7d": [
+        {
+          "date": "2026-02-10",
+          "close": 185929.0
+        },
+        {
+          "date": "2026-02-11",
+          "close": 189699.0
+        },
+        {
+          "date": "2026-02-12",
+          "close": 187766.0
+        },
+        {
+          "date": "2026-02-13",
+          "close": 186464.0
+        },
+        {
+          "date": "2026-02-18",
+          "close": 186016.0
+        },
+        {
+          "date": "2026-02-19",
+          "close": 188534.0
+        },
+        {
+          "date": "2026-02-20",
+          "close": 190534.0
+        }
+      ],
+      "vol_annual": 0.15588892,
+      "vol_semiannual": 0.15720032,
+      "vol_quarterly": 0.20293592,
+      "vol_monthly": 0.19724243,
+      "vol_weekly": 0.03247807
     },
     {
       "symbol": "^IBX50",
