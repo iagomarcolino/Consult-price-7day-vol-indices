@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-24T21:59:36Z",
+  "generated_at_utc": "2026-02-24T22:44:57Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -139,14 +139,10 @@
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
       "price": 24977.044922,
-      "close_d1": 25012.619141,
-      "change_pts": -35.574219,
-      "change_pct": -0.00142225,
+      "close_d1": 24708.939453,
+      "change_pts": 268.105469,
+      "change_pct": 0.01085055,
       "daily_7d": [
-        {
-          "date": "2026-02-12",
-          "close": 24687.609375
-        },
         {
           "date": "2026-02-13",
           "close": 24732.730469
@@ -170,13 +166,17 @@
         {
           "date": "2026-02-23",
           "close": 24708.939453
+        },
+        {
+          "date": "2026-02-24",
+          "close": 24977.044922
         }
       ],
-      "vol_annual": 0.22146222,
-      "vol_semiannual": 0.16221541,
-      "vol_quarterly": 0.14804862,
-      "vol_monthly": 0.18414443,
-      "vol_weekly": 0.15976854
+      "vol_annual": 0.22132008,
+      "vol_semiannual": 0.16219311,
+      "vol_quarterly": 0.14851299,
+      "vol_monthly": 0.18505296,
+      "vol_weekly": 0.15790513
     },
     {
       "symbol": "^GSPTSE",
