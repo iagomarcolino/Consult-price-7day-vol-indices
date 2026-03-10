@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-10T23:01:08Z",
+  "generated_at_utc": "2026-03-10T23:42:35Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -1208,11 +1208,15 @@
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 8692.599609,
-      "close_d1": 8599.0,
-      "change_pts": 93.599609,
-      "change_pct": 0.01088494,
+      "price": 8725.0,
+      "close_d1": 8851.0,
+      "change_pts": -126.0,
+      "change_pct": -0.01423568,
       "daily_7d": [
+        {
+          "date": "2026-02-27",
+          "close": 9198.599609
+        },
         {
           "date": "2026-03-02",
           "close": 9167.5
@@ -1236,17 +1240,13 @@
         {
           "date": "2026-03-09",
           "close": 8599.0
-        },
-        {
-          "date": "2026-03-10",
-          "close": 8692.599609
         }
       ],
-      "vol_annual": 0.12155691,
-      "vol_semiannual": 0.12281793,
-      "vol_quarterly": 0.1429045,
-      "vol_monthly": 0.17324807,
-      "vol_weekly": 0.26087382
+      "vol_annual": 0.12141297,
+      "vol_semiannual": 0.12226492,
+      "vol_quarterly": 0.14231102,
+      "vol_monthly": 0.17200196,
+      "vol_weekly": 0.22553686
     },
     {
       "symbol": "^STI",
