@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-11T23:27:44Z",
+  "generated_at_utc": "2026-03-11T23:51:31Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -286,45 +286,16 @@
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 22381.339844,
-      "close_d1": 22492.300781,
-      "change_pts": -110.960938,
-      "change_pct": -0.00493329,
-      "daily_7d": [
-        {
-          "date": "2026-03-03",
-          "close": 22694.199219
-        },
-        {
-          "date": "2026-03-04",
-          "close": 22896.699219
-        },
-        {
-          "date": "2026-03-05",
-          "close": 22700.199219
-        },
-        {
-          "date": "2026-03-06",
-          "close": 22501.0
-        },
-        {
-          "date": "2026-03-09",
-          "close": 22098.099609
-        },
-        {
-          "date": "2026-03-10",
-          "close": 22492.300781
-        },
-        {
-          "date": "2026-03-11",
-          "close": 22381.339844
-        }
-      ],
-      "vol_annual": 0.12894046,
-      "vol_semiannual": 0.11134329,
-      "vol_quarterly": 0.12779135,
-      "vol_monthly": 0.17184952,
-      "vol_weekly": 0.21177335
+      "price": null,
+      "close_d1": null,
+      "change_pts": null,
+      "change_pct": null,
+      "daily_7d": [],
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
+      "vol_weekly": null
     },
     {
       "symbol": "^FCHI",
@@ -1208,10 +1179,10 @@
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 8649.900391,
+      "price": 8640.0,
       "close_d1": 8599.0,
-      "change_pts": 50.900391,
-      "change_pct": 0.00591934,
+      "change_pts": 41.0,
+      "change_pct": 0.004768,
       "daily_7d": [
         {
           "date": "2026-03-02",
