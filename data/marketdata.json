@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-21T09:03:53Z",
+  "generated_at_utc": "2026-03-21T09:46:25Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -1103,16 +1103,45 @@
     {
       "symbol": "399001.SZ",
       "name": "SZSE Component Index (Shenzhen)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 13866.202148,
+      "close_d1": 13901.570312,
+      "change_pts": -35.368164,
+      "change_pct": -0.00254418,
+      "daily_7d": [
+        {
+          "date": "2026-03-12",
+          "close": 14374.870117
+        },
+        {
+          "date": "2026-03-13",
+          "close": 14280.780273
+        },
+        {
+          "date": "2026-03-16",
+          "close": 14307.580078
+        },
+        {
+          "date": "2026-03-17",
+          "close": 14039.730469
+        },
+        {
+          "date": "2026-03-18",
+          "close": 14187.799805
+        },
+        {
+          "date": "2026-03-19",
+          "close": 13901.570312
+        },
+        {
+          "date": "2026-03-20",
+          "close": 13866.202148
+        }
+      ],
+      "vol_annual": 0.23325144,
+      "vol_semiannual": 0.20034546,
+      "vol_quarterly": 0.1771823,
+      "vol_monthly": 0.20475606,
+      "vol_weekly": 0.21283149
     },
     {
       "symbol": "399006.SZ",
