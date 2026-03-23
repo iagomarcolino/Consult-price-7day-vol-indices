@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-23T22:51:48Z",
+  "generated_at_utc": "2026-03-23T23:34:29Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -931,16 +931,45 @@
     {
       "symbol": "^KS11",
       "name": "KOSPI (South Korea)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 5405.75,
+      "close_d1": 5781.200195,
+      "change_pts": -375.450195,
+      "change_pct": -0.0649433,
+      "daily_7d": [
+        {
+          "date": "2026-03-13",
+          "close": 5487.240234
+        },
+        {
+          "date": "2026-03-16",
+          "close": 5549.850098
+        },
+        {
+          "date": "2026-03-17",
+          "close": 5640.47998
+        },
+        {
+          "date": "2026-03-18",
+          "close": 5925.029785
+        },
+        {
+          "date": "2026-03-19",
+          "close": 5763.220215
+        },
+        {
+          "date": "2026-03-20",
+          "close": 5781.200195
+        },
+        {
+          "date": "2026-03-23",
+          "close": 5405.75
+        }
+      ],
+      "vol_annual": 0.28782603,
+      "vol_semiannual": 0.41561544,
+      "vol_quarterly": 0.53189441,
+      "vol_monthly": 0.76957312,
+      "vol_weekly": 0.70241346
     },
     {
       "symbol": "^KQ11",
@@ -1179,11 +1208,15 @@
     {
       "symbol": "^AXJO",
       "name": "S&P/ASX 200",
-      "price": 8365.900391,
-      "close_d1": 8428.400391,
-      "change_pts": -62.5,
-      "change_pct": -0.0074154,
+      "price": 8475.5,
+      "close_d1": 8497.799805,
+      "change_pts": -22.299805,
+      "change_pct": -0.00262419,
       "daily_7d": [
+        {
+          "date": "2026-03-12",
+          "close": 8629.0
+        },
         {
           "date": "2026-03-13",
           "close": 8617.099609
@@ -1207,17 +1240,13 @@
         {
           "date": "2026-03-20",
           "close": 8428.400391
-        },
-        {
-          "date": "2026-03-23",
-          "close": 8365.900391
         }
       ],
-      "vol_annual": 0.12263754,
-      "vol_semiannual": 0.1260033,
-      "vol_quarterly": 0.14524131,
-      "vol_monthly": 0.16260184,
-      "vol_weekly": 0.13535529
+      "vol_annual": 0.12265711,
+      "vol_semiannual": 0.12612235,
+      "vol_quarterly": 0.14589359,
+      "vol_monthly": 0.16630351,
+      "vol_weekly": 0.15449232
     },
     {
       "symbol": "^STI",
