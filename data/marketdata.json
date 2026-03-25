@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-25T20:40:06Z",
+  "generated_at_utc": "2026-03-25T21:21:11Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -96,14 +96,10 @@
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
       "price": 21929.826172,
-      "close_d1": 21946.759766,
-      "change_pts": -16.933594,
-      "change_pct": -0.00077158,
+      "close_d1": 21761.890625,
+      "change_pts": 167.935547,
+      "change_pct": 0.00771696,
       "daily_7d": [
-        {
-          "date": "2026-03-16",
-          "close": 22374.179688
-        },
         {
           "date": "2026-03-17",
           "close": 22479.529297
@@ -127,13 +123,17 @@
         {
           "date": "2026-03-24",
           "close": 21761.890625
+        },
+        {
+          "date": "2026-03-25",
+          "close": 21929.826172
         }
       ],
-      "vol_annual": 0.21834817,
-      "vol_semiannual": 0.17388164,
-      "vol_quarterly": 0.15877672,
-      "vol_monthly": 0.18081315,
-      "vol_weekly": 0.22433728
+      "vol_annual": 0.21813339,
+      "vol_semiannual": 0.17351391,
+      "vol_quarterly": 0.15841706,
+      "vol_monthly": 0.17971269,
+      "vol_weekly": 0.21252278
     },
     {
       "symbol": "^NDX",
