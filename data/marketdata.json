@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-04T04:31:32Z",
+  "generated_at_utc": "2026-04-04T05:44:51Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -888,15 +888,11 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 386.6,
-      "close_d1": 389.200012,
-      "change_pts": -2.600012,
-      "change_pct": -0.0066804,
+      "price": 386.600006,
+      "close_d1": 383.0,
+      "change_pts": 3.600006,
+      "change_pct": 0.00939949,
       "daily_7d": [
-        {
-          "date": "2026-03-25",
-          "close": 3836.0
-        },
         {
           "date": "2026-03-26",
           "close": 3826.0
@@ -920,13 +916,17 @@
         {
           "date": "2026-04-02",
           "close": 383.0
+        },
+        {
+          "date": "2026-04-03",
+          "close": 386.600006
         }
       ],
-      "vol_annual": 1.92138474,
-      "vol_semiannual": 3.60159826,
-      "vol_quarterly": 5.01918806,
-      "vol_monthly": 8.6924911,
-      "vol_weekly": 18.45969466
+      "vol_annual": 1.91883785,
+      "vol_semiannual": 3.5847116,
+      "vol_quarterly": 4.97371278,
+      "vol_monthly": 8.46211168,
+      "vol_weekly": 16.51686851
     },
     {
       "symbol": "^KS11",
@@ -974,45 +974,16 @@
     {
       "symbol": "^KQ11",
       "name": "KOSDAQ (South Korea)",
-      "price": 1063.75,
-      "close_d1": 1056.339966,
-      "change_pts": 7.410034,
-      "change_pct": 0.00701482,
-      "daily_7d": [
-        {
-          "date": "2026-03-26",
-          "close": 1136.640015
-        },
-        {
-          "date": "2026-03-27",
-          "close": 1141.51001
-        },
-        {
-          "date": "2026-03-30",
-          "close": 1107.050049
-        },
-        {
-          "date": "2026-03-31",
-          "close": 1052.390015
-        },
-        {
-          "date": "2026-04-01",
-          "close": 1116.180054
-        },
-        {
-          "date": "2026-04-02",
-          "close": 1056.339966
-        },
-        {
-          "date": "2026-04-03",
-          "close": 1063.75
-        }
-      ],
-      "vol_annual": 0.31131778,
-      "vol_semiannual": 0.45139953,
-      "vol_quarterly": 0.59927105,
-      "vol_monthly": 0.51388123,
-      "vol_weekly": 0.75534398
+      "price": null,
+      "close_d1": null,
+      "change_pts": null,
+      "change_pct": null,
+      "daily_7d": [],
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
+      "vol_weekly": null
     },
     {
       "symbol": "000001.SS",
