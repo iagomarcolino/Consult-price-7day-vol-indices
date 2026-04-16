@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-15T23:29:31Z",
+  "generated_at_utc": "2026-04-16T00:09:55Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -52,16 +52,45 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 22955.570312,
+      "close_d1": 23016.380859,
+      "change_pts": -60.810547,
+      "change_pct": -0.00264206,
+      "daily_7d": [
+        {
+          "date": "2026-04-07",
+          "close": 22249.630859
+        },
+        {
+          "date": "2026-04-08",
+          "close": 22798.050781
+        },
+        {
+          "date": "2026-04-09",
+          "close": 22830.720703
+        },
+        {
+          "date": "2026-04-10",
+          "close": 22734.5
+        },
+        {
+          "date": "2026-04-13",
+          "close": 22940.980469
+        },
+        {
+          "date": "2026-04-14",
+          "close": 23016.380859
+        },
+        {
+          "date": "2026-04-15",
+          "close": 22955.570312
+        }
+      ],
+      "vol_annual": 0.14349078,
+      "vol_semiannual": 0.123465,
+      "vol_quarterly": 0.14426632,
+      "vol_monthly": 0.17464428,
+      "vol_weekly": 0.08321486
     },
     {
       "symbol": "^IXIC",
@@ -850,7 +879,7 @@
           "close": 57877.390625
         }
       ],
-      "vol_annual": 0.24800811,
+      "vol_annual": 0.24825706,
       "vol_semiannual": 0.27898614,
       "vol_quarterly": 0.32923849,
       "vol_monthly": 0.39509919,
@@ -859,10 +888,10 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 399.600006,
+      "price": 399.6,
       "close_d1": 398.200012,
-      "change_pts": 1.399994,
-      "change_pct": 0.00351581,
+      "change_pts": 1.399988,
+      "change_pct": 0.00351579,
       "daily_7d": [
         {
           "date": "2026-04-07",
@@ -893,7 +922,7 @@
           "close": 399.600006
         }
       ],
-      "vol_annual": 1.91874785,
+      "vol_annual": 1.9213275,
       "vol_semiannual": 3.55153226,
       "vol_quarterly": 4.88668614,
       "vol_monthly": 8.47138175,
@@ -936,7 +965,7 @@
           "close": 5967.75
         }
       ],
-      "vol_annual": 0.29640447,
+      "vol_annual": 0.29679708,
       "vol_semiannual": 0.45210973,
       "vol_quarterly": 0.58750211,
       "vol_monthly": 0.60635951,
@@ -979,7 +1008,7 @@
           "close": 1121.880005
         }
       ],
-      "vol_annual": 0.3137223,
+      "vol_annual": 0.31401944,
       "vol_semiannual": 0.45764924,
       "vol_quarterly": 0.61655783,
       "vol_monthly": 0.51736157,
@@ -1213,7 +1242,7 @@
           "close": 8970.799805
         }
       ],
-      "vol_annual": 0.12591337,
+      "vol_annual": 0.12606079,
       "vol_semiannual": 0.13806376,
       "vol_quarterly": 0.16876372,
       "vol_monthly": 0.18513377,
