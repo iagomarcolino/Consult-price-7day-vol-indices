@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-16T22:25:33Z",
+  "generated_at_utc": "2026-04-16T23:10:13Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -243,11 +243,15 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10589.990234,
-      "close_d1": 10559.599609,
-      "change_pts": 30.390625,
-      "change_pct": 0.00287801,
+      "price": 10589.99,
+      "close_d1": 10609.099609,
+      "change_pts": -19.109609,
+      "change_pct": -0.00180125,
       "daily_7d": [
+        {
+          "date": "2026-04-07",
+          "close": 10348.799805
+        },
         {
           "date": "2026-04-08",
           "close": 10608.900391
@@ -271,26 +275,26 @@
         {
           "date": "2026-04-15",
           "close": 10559.599609
-        },
-        {
-          "date": "2026-04-16",
-          "close": 10589.990234
         }
       ],
-      "vol_annual": 0.12077867,
-      "vol_semiannual": 0.1258492,
-      "vol_quarterly": 0.15328557,
-      "vol_monthly": 0.19086491,
-      "vol_weekly": 0.04936619
+      "vol_annual": 0.12092087,
+      "vol_semiannual": 0.12635891,
+      "vol_quarterly": 0.15453828,
+      "vol_monthly": 0.19670531,
+      "vol_weekly": 0.04713214
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
       "price": 22779.5,
-      "close_d1": 22665.599609,
-      "change_pts": 113.900391,
-      "change_pct": 0.00502525,
+      "close_d1": 22724.300781,
+      "change_pts": 55.199219,
+      "change_pct": 0.00242908,
       "daily_7d": [
+        {
+          "date": "2026-04-07",
+          "close": 21556.5
+        },
         {
           "date": "2026-04-08",
           "close": 22434.800781
@@ -314,17 +318,13 @@
         {
           "date": "2026-04-15",
           "close": 22665.599609
-        },
-        {
-          "date": "2026-04-16",
-          "close": 22779.5
         }
       ],
-      "vol_annual": 0.13725383,
-      "vol_semiannual": 0.14122446,
-      "vol_quarterly": 0.17680121,
-      "vol_monthly": 0.24527478,
-      "vol_weekly": 0.14862366
+      "vol_annual": 0.13737703,
+      "vol_semiannual": 0.14165499,
+      "vol_quarterly": 0.17798509,
+      "vol_monthly": 0.25251419,
+      "vol_weekly": 0.17161331
     },
     {
       "symbol": "^FCHI",
@@ -1251,45 +1251,16 @@
     {
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
-      "price": 5007.83,
-      "close_d1": 5007.569824,
-      "change_pts": 0.260176,
-      "change_pct": 5.196e-05,
-      "daily_7d": [
-        {
-          "date": "2026-04-07",
-          "close": 4958.009766
-        },
-        {
-          "date": "2026-04-08",
-          "close": 4996.049805
-        },
-        {
-          "date": "2026-04-09",
-          "close": 4977.080078
-        },
-        {
-          "date": "2026-04-10",
-          "close": 4989.410156
-        },
-        {
-          "date": "2026-04-13",
-          "close": 4984.169922
-        },
-        {
-          "date": "2026-04-14",
-          "close": 5007.569824
-        },
-        {
-          "date": "2026-04-15",
-          "close": 5021.200195
-        }
-      ],
-      "vol_annual": 0.12769381,
-      "vol_semiannual": 0.11438702,
-      "vol_quarterly": 0.14271814,
-      "vol_monthly": 0.13040224,
-      "vol_weekly": 0.03787889
+      "price": null,
+      "close_d1": null,
+      "change_pts": null,
+      "change_pct": null,
+      "daily_7d": [],
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
+      "vol_weekly": null
     }
   ]
 }
