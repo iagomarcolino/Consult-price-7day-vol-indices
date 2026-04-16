@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-16T23:10:13Z",
+  "generated_at_utc": "2026-04-16T23:58:22Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -1251,16 +1251,45 @@
     {
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 5007.83,
+      "close_d1": 5007.569824,
+      "change_pts": 0.260176,
+      "change_pct": 5.196e-05,
+      "daily_7d": [
+        {
+          "date": "2026-04-07",
+          "close": 4958.009766
+        },
+        {
+          "date": "2026-04-08",
+          "close": 4996.049805
+        },
+        {
+          "date": "2026-04-09",
+          "close": 4977.080078
+        },
+        {
+          "date": "2026-04-10",
+          "close": 4989.410156
+        },
+        {
+          "date": "2026-04-13",
+          "close": 4984.169922
+        },
+        {
+          "date": "2026-04-14",
+          "close": 5007.569824
+        },
+        {
+          "date": "2026-04-15",
+          "close": 5021.200195
+        }
+      ],
+      "vol_annual": 0.12769381,
+      "vol_semiannual": 0.11438702,
+      "vol_quarterly": 0.14271814,
+      "vol_monthly": 0.13040224,
+      "vol_weekly": 0.03787889
     }
   ]
 }
