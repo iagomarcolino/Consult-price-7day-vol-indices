@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-03T22:05:01Z",
+  "generated_at_utc": "2026-06-04T00:00:55Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -243,11 +243,15 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10332.299805,
-      "close_d1": 10373.5,
-      "change_pts": -41.200195,
-      "change_pct": -0.00397168,
+      "price": 10332.3,
+      "close_d1": 10339.0,
+      "change_pts": -6.7,
+      "change_pct": -0.00064803,
       "daily_7d": [
+        {
+          "date": "2026-05-22",
+          "close": 10466.299805
+        },
         {
           "date": "2026-05-26",
           "close": 10491.400391
@@ -271,26 +275,26 @@
         {
           "date": "2026-06-02",
           "close": 10373.5
-        },
-        {
-          "date": "2026-06-03",
-          "close": 10332.299805
         }
       ],
-      "vol_annual": 0.12380802,
-      "vol_semiannual": 0.13716435,
-      "vol_quarterly": 0.15433293,
-      "vol_monthly": 0.1434071,
-      "vol_weekly": 0.06985304
+      "vol_annual": 0.12391196,
+      "vol_semiannual": 0.13758944,
+      "vol_quarterly": 0.15545701,
+      "vol_monthly": 0.14651895,
+      "vol_weekly": 0.0803716
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 23186.289062,
-      "close_d1": 23378.400391,
-      "change_pts": -192.111328,
-      "change_pct": -0.00821747,
+      "price": 23186.29,
+      "close_d1": 23245.800781,
+      "change_pts": -59.510781,
+      "change_pct": -0.00256007,
       "daily_7d": [
+        {
+          "date": "2026-05-22",
+          "close": 23167.5
+        },
         {
           "date": "2026-05-26",
           "close": 23327.5
@@ -314,17 +318,13 @@
         {
           "date": "2026-06-02",
           "close": 23378.400391
-        },
-        {
-          "date": "2026-06-03",
-          "close": 23186.289062
         }
       ],
-      "vol_annual": 0.13821419,
-      "vol_semiannual": 0.15079632,
-      "vol_quarterly": 0.18104989,
-      "vol_monthly": 0.13152816,
-      "vol_weekly": 0.10367997
+      "vol_annual": 0.13821792,
+      "vol_semiannual": 0.15089396,
+      "vol_quarterly": 0.18170777,
+      "vol_monthly": 0.12990227,
+      "vol_weekly": 0.09917288
     },
     {
       "symbol": "^FCHI",
@@ -879,7 +879,7 @@
           "close": 66734.242188
         }
       ],
-      "vol_annual": 0.24202987,
+      "vol_annual": 0.24235284,
       "vol_semiannual": 0.27318862,
       "vol_quarterly": 0.31085872,
       "vol_monthly": 0.2402128,
@@ -888,10 +888,10 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 423.799988,
+      "price": 423.8,
       "close_d1": 415.799988,
-      "change_pts": 8.0,
-      "change_pct": 0.01924002,
+      "change_pts": 8.000012,
+      "change_pct": 0.01924005,
       "daily_7d": [
         {
           "date": "2026-05-26",
@@ -922,7 +922,7 @@
           "close": 423.799988
         }
       ],
-      "vol_annual": 1.9180525,
+      "vol_annual": 1.92062187,
       "vol_semiannual": 3.55150612,
       "vol_quarterly": 4.97419206,
       "vol_monthly": 0.15499991,
@@ -931,10 +931,10 @@
     {
       "symbol": "^KS11",
       "name": "KOSPI (South Korea)",
-      "price": 8801.490234,
+      "price": 8801.49,
       "close_d1": 8788.379883,
-      "change_pts": 13.110352,
-      "change_pct": 0.00149178,
+      "change_pts": 13.110117,
+      "change_pct": 0.00149176,
       "daily_7d": [
         {
           "date": "2026-05-22",
@@ -965,7 +965,7 @@
           "close": 8801.490234
         }
       ],
-      "vol_annual": 0.31244343,
+      "vol_annual": 0.31284059,
       "vol_semiannual": 0.48072476,
       "vol_quarterly": 0.49849667,
       "vol_monthly": 0.51645618,
@@ -974,10 +974,10 @@
     {
       "symbol": "^KQ11",
       "name": "KOSDAQ (South Korea)",
-      "price": 1026.030029,
+      "price": 1026.03,
       "close_d1": 1050.030029,
-      "change_pts": -24.0,
-      "change_pct": -0.02285649,
+      "change_pts": -24.000029,
+      "change_pct": -0.02285652,
       "daily_7d": [
         {
           "date": "2026-05-22",
@@ -1008,7 +1008,7 @@
           "close": 1026.030029
         }
       ],
-      "vol_annual": 0.32343148,
+      "vol_annual": 0.32381476,
       "vol_semiannual": 0.48839793,
       "vol_quarterly": 0.42321069,
       "vol_monthly": 0.42631786,
@@ -1242,7 +1242,7 @@
           "close": 8724.400391
         }
       ],
-      "vol_annual": 0.12854449,
+      "vol_annual": 0.12863397,
       "vol_semiannual": 0.14148169,
       "vol_quarterly": 0.15500713,
       "vol_monthly": 0.15593265,
