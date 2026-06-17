@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T22:53:05Z",
+  "generated_at_utc": "2026-06-17T00:17:22Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -44,10 +44,10 @@
         }
       ],
       "vol_annual": 0.15588258,
-      "vol_semiannual": 0.14230583,
-      "vol_quarterly": 0.15033841,
-      "vol_monthly": 0.1561051,
-      "vol_weekly": 0.22078021
+      "vol_semiannual": 0.1429329,
+      "vol_quarterly": 0.1495927,
+      "vol_monthly": 0.15661355,
+      "vol_weekly": 0.08932234
     },
     {
       "symbol": "^NYA",
@@ -87,10 +87,10 @@
         }
       ],
       "vol_annual": 0.14532066,
-      "vol_semiannual": 0.12716508,
-      "vol_quarterly": 0.13458072,
-      "vol_monthly": 0.12177385,
-      "vol_weekly": 0.1600335
+      "vol_semiannual": 0.12771817,
+      "vol_quarterly": 0.13139055,
+      "vol_monthly": 0.1229118,
+      "vol_weekly": 0.09148416
     },
     {
       "symbol": "^IXIC",
@@ -130,10 +130,10 @@
         }
       ],
       "vol_annual": 0.22517278,
-      "vol_semiannual": 0.19378868,
-      "vol_quarterly": 0.22463706,
-      "vol_monthly": 0.25313937,
-      "vol_weekly": 0.35026244
+      "vol_semiannual": 0.19453048,
+      "vol_quarterly": 0.22129833,
+      "vol_monthly": 0.2583393,
+      "vol_weekly": 0.30962826
     },
     {
       "symbol": "^NDX",
@@ -173,10 +173,10 @@
         }
       ],
       "vol_annual": 0.22306564,
-      "vol_semiannual": 0.20135526,
-      "vol_quarterly": 0.23524998,
-      "vol_monthly": 0.29029758,
-      "vol_weekly": 0.40348523
+      "vol_semiannual": 0.20218341,
+      "vol_quarterly": 0.23264615,
+      "vol_monthly": 0.29746738,
+      "vol_weekly": 0.38217471
     },
     {
       "symbol": "^GSPTSE",
@@ -216,10 +216,10 @@
         }
       ],
       "vol_annual": 0.14414275,
-      "vol_semiannual": 0.15632824,
-      "vol_quarterly": 0.1477362,
+      "vol_semiannual": 0.15701235,
+      "vol_quarterly": 0.14358717,
       "vol_monthly": 0.14834226,
-      "vol_weekly": 0.13533518
+      "vol_weekly": 0.0782649
     },
     {
       "symbol": "TX60.TS",
@@ -243,11 +243,15 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10494.209961,
-      "close_d1": 10430.599609,
-      "change_pts": 63.610352,
-      "change_pct": 0.00609844,
+      "price": 10494.21,
+      "close_d1": 10471.700195,
+      "change_pts": 22.509805,
+      "change_pct": 0.00214958,
       "daily_7d": [
+        {
+          "date": "2026-06-05",
+          "close": 10368.099609
+        },
         {
           "date": "2026-06-08",
           "close": 10373.200195
@@ -271,26 +275,26 @@
         {
           "date": "2026-06-15",
           "close": 10430.599609
-        },
-        {
-          "date": "2026-06-16",
-          "close": 10494.209961
         }
       ],
-      "vol_annual": 0.12425741,
-      "vol_semiannual": 0.13857412,
-      "vol_quarterly": 0.145307,
-      "vol_monthly": 0.10438487,
-      "vol_weekly": 0.11520211
+      "vol_annual": 0.12434278,
+      "vol_semiannual": 0.13955656,
+      "vol_quarterly": 0.14359713,
+      "vol_monthly": 0.1085476,
+      "vol_weekly": 0.15990007
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 23326.580078,
-      "close_d1": 23362.599609,
-      "change_pts": -36.019531,
-      "change_pct": -0.00154176,
+      "price": 23326.58,
+      "close_d1": 23325.699219,
+      "change_pts": 0.880781,
+      "change_pct": 3.776e-05,
       "daily_7d": [
+        {
+          "date": "2026-06-05",
+          "close": 23060.699219
+        },
         {
           "date": "2026-06-08",
           "close": 23013.400391
@@ -314,17 +318,13 @@
         {
           "date": "2026-06-15",
           "close": 23362.599609
-        },
-        {
-          "date": "2026-06-16",
-          "close": 23326.580078
         }
       ],
-      "vol_annual": 0.13813827,
-      "vol_semiannual": 0.15308141,
-      "vol_quarterly": 0.16708783,
-      "vol_monthly": 0.1111034,
-      "vol_weekly": 0.10523866
+      "vol_annual": 0.13830885,
+      "vol_semiannual": 0.15442706,
+      "vol_quarterly": 0.16814581,
+      "vol_monthly": 0.11647228,
+      "vol_weekly": 0.12963673
     },
     {
       "symbol": "^FCHI",
@@ -364,10 +364,10 @@
         }
       ],
       "vol_annual": 0.15550043,
-      "vol_semiannual": 0.16388106,
-      "vol_quarterly": 0.18194252,
-      "vol_monthly": 0.13130565,
-      "vol_weekly": 0.15185917
+      "vol_semiannual": 0.16456013,
+      "vol_quarterly": 0.17840646,
+      "vol_monthly": 0.13436406,
+      "vol_weekly": 0.12638446
     },
     {
       "symbol": "^AEX",
@@ -407,10 +407,10 @@
         }
       ],
       "vol_annual": 0.14285016,
-      "vol_semiannual": 0.15435138,
-      "vol_quarterly": 0.14927867,
-      "vol_monthly": 0.11659259,
-      "vol_weekly": 0.14911541
+      "vol_semiannual": 0.15501575,
+      "vol_quarterly": 0.14528455,
+      "vol_monthly": 0.11978534,
+      "vol_weekly": 0.18090631
     },
     {
       "symbol": "^BFX",
@@ -450,10 +450,10 @@
         }
       ],
       "vol_annual": 0.14817692,
-      "vol_semiannual": 0.16404006,
-      "vol_quarterly": 0.17219917,
-      "vol_monthly": 0.12035661,
-      "vol_weekly": 0.16848378
+      "vol_semiannual": 0.16476129,
+      "vol_quarterly": 0.16830384,
+      "vol_monthly": 0.12352055,
+      "vol_weekly": 0.20613621
     },
     {
       "symbol": "^GDAXI",
@@ -493,10 +493,10 @@
         }
       ],
       "vol_annual": 0.17693182,
-      "vol_semiannual": 0.19221324,
-      "vol_quarterly": 0.20604933,
-      "vol_monthly": 0.1504965,
-      "vol_weekly": 0.18815615
+      "vol_semiannual": 0.19305561,
+      "vol_quarterly": 0.20229301,
+      "vol_monthly": 0.1542939,
+      "vol_weekly": 0.13424324
     },
     {
       "symbol": "^MDAXI",
@@ -536,10 +536,10 @@
         }
       ],
       "vol_annual": 0.20106627,
-      "vol_semiannual": 0.22846756,
-      "vol_quarterly": 0.24639331,
-      "vol_monthly": 0.17848685,
-      "vol_weekly": 0.21776578
+      "vol_semiannual": 0.22937048,
+      "vol_quarterly": 0.24274348,
+      "vol_monthly": 0.18227207,
+      "vol_weekly": 0.11851077
     },
     {
       "symbol": "^SSMI",
@@ -579,10 +579,10 @@
         }
       ],
       "vol_annual": 0.14373443,
-      "vol_semiannual": 0.14208454,
-      "vol_quarterly": 0.13945255,
-      "vol_monthly": 0.11882286,
-      "vol_weekly": 0.08290441
+      "vol_semiannual": 0.14250922,
+      "vol_quarterly": 0.13755089,
+      "vol_monthly": 0.11863509,
+      "vol_weekly": 0.10010874
     },
     {
       "symbol": "^SSHI",
@@ -622,10 +622,10 @@
         }
       ],
       "vol_annual": 0.1356728,
-      "vol_semiannual": 0.13496035,
-      "vol_quarterly": 0.13344957,
-      "vol_monthly": 0.10904126,
-      "vol_weekly": 0.0753527
+      "vol_semiannual": 0.13545298,
+      "vol_quarterly": 0.13170171,
+      "vol_monthly": 0.10946724,
+      "vol_weekly": 0.09217123
     },
     {
       "symbol": "^BSESN",
@@ -665,10 +665,10 @@
         }
       ],
       "vol_annual": 0.13445333,
-      "vol_semiannual": 0.16829875,
-      "vol_quarterly": 0.1826404,
-      "vol_monthly": 0.12473414,
-      "vol_weekly": 0.17641938
+      "vol_semiannual": 0.16911127,
+      "vol_quarterly": 0.18429509,
+      "vol_monthly": 0.12798071,
+      "vol_weekly": 0.19646283
     },
     {
       "symbol": "^NSEI",
@@ -708,10 +708,10 @@
         }
       ],
       "vol_annual": 0.13353049,
-      "vol_semiannual": 0.16478647,
-      "vol_quarterly": 0.17432548,
-      "vol_monthly": 0.11466762,
-      "vol_weekly": 0.16433389
+      "vol_semiannual": 0.16557626,
+      "vol_quarterly": 0.17584037,
+      "vol_monthly": 0.11769254,
+      "vol_weekly": 0.17504133
     },
     {
       "symbol": "^BVSP",
@@ -751,10 +751,10 @@
         }
       ],
       "vol_annual": 0.171252,
-      "vol_semiannual": 0.19846463,
-      "vol_quarterly": 0.18895201,
-      "vol_monthly": 0.16099838,
-      "vol_weekly": 0.15442781
+      "vol_semiannual": 0.1982927,
+      "vol_quarterly": 0.18434562,
+      "vol_monthly": 0.1567719,
+      "vol_weekly": 0.16386824
     },
     {
       "symbol": "^IBX50",
@@ -794,10 +794,10 @@
         }
       ],
       "vol_annual": 0.16939628,
-      "vol_semiannual": 0.19533268,
-      "vol_quarterly": 0.18274848,
-      "vol_monthly": 0.15406106,
-      "vol_weekly": 0.148681
+      "vol_semiannual": 0.19525015,
+      "vol_quarterly": 0.17827108,
+      "vol_monthly": 0.1503156,
+      "vol_weekly": 0.15911402
     },
     {
       "symbol": "BRAX11.SA",
@@ -837,23 +837,19 @@
         }
       ],
       "vol_annual": 0.16921339,
-      "vol_semiannual": 0.19913565,
-      "vol_quarterly": 0.18632666,
-      "vol_monthly": 0.15698576,
-      "vol_weekly": 0.1421652
+      "vol_semiannual": 0.19609491,
+      "vol_quarterly": 0.18080954,
+      "vol_monthly": 0.15300658,
+      "vol_weekly": 0.15759861
     },
     {
       "symbol": "^N225",
       "name": "Nikkei 225",
-      "price": 69404.5,
-      "close_d1": 66020.039062,
-      "change_pts": 3384.460938,
-      "change_pct": 0.05126415,
+      "price": 69283.820312,
+      "close_d1": 69317.5,
+      "change_pts": -33.679688,
+      "change_pct": -0.00048588,
       "daily_7d": [
-        {
-          "date": "2026-06-05",
-          "close": 66588.117188
-        },
         {
           "date": "2026-06-08",
           "close": 64024.601562
@@ -877,26 +873,26 @@
         {
           "date": "2026-06-15",
           "close": 69317.5
+        },
+        {
+          "date": "2026-06-17",
+          "close": 69283.820312
         }
       ],
-      "vol_annual": 0.24934207,
-      "vol_semiannual": 0.29443122,
+      "vol_annual": 0.24967562,
+      "vol_semiannual": 0.29581266,
       "vol_quarterly": 0.30905665,
-      "vol_monthly": 0.3455524,
-      "vol_weekly": 0.47343393
+      "vol_monthly": 0.35253994,
+      "vol_weekly": 0.38315775
     },
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
       "price": 423.100006,
-      "close_d1": 424.5,
-      "change_pts": -1.399994,
-      "change_pct": -0.00329798,
+      "close_d1": 423.100006,
+      "change_pts": 0.0,
+      "change_pct": 0.0,
       "daily_7d": [
-        {
-          "date": "2026-06-08",
-          "close": 408.799988
-        },
         {
           "date": "2026-06-09",
           "close": 413.200012
@@ -920,13 +916,17 @@
         {
           "date": "2026-06-16",
           "close": 423.100006
+        },
+        {
+          "date": "2026-06-17",
+          "close": 423.100006
         }
       ],
-      "vol_annual": 1.91585752,
-      "vol_semiannual": 3.55178165,
-      "vol_quarterly": 4.97431163,
-      "vol_monthly": 0.20515621,
-      "vol_weekly": 0.27008001
+      "vol_annual": 1.91585843,
+      "vol_semiannual": 3.55171551,
+      "vol_quarterly": 4.92959629,
+      "vol_monthly": 0.20475327,
+      "vol_weekly": 0.22806026
     },
     {
       "symbol": "^KS11",
@@ -965,11 +965,11 @@
           "close": 8545.980469
         }
       ],
-      "vol_annual": 0.3370486,
-      "vol_semiannual": 0.53614295,
-      "vol_quarterly": 0.56754532,
-      "vol_monthly": 0.75061604,
-      "vol_weekly": 0.7129132
+      "vol_annual": 0.33739564,
+      "vol_semiannual": 0.53869136,
+      "vol_quarterly": 0.57295968,
+      "vol_monthly": 0.75624662,
+      "vol_weekly": 0.40288248
     },
     {
       "symbol": "^KQ11",
@@ -1008,11 +1008,11 @@
           "close": 1034.030029
         }
       ],
-      "vol_annual": 0.34115231,
-      "vol_semiannual": 0.53291328,
-      "vol_quarterly": 0.50193871,
-      "vol_monthly": 0.67385961,
-      "vol_weekly": 0.44719101
+      "vol_annual": 0.34138224,
+      "vol_semiannual": 0.53520921,
+      "vol_quarterly": 0.50509086,
+      "vol_monthly": 0.69312573,
+      "vol_weekly": 0.33540437
     },
     {
       "symbol": "000001.SS",
@@ -1052,10 +1052,10 @@
         }
       ],
       "vol_annual": 0.12792245,
-      "vol_semiannual": 0.14441056,
-      "vol_quarterly": 0.16707009,
-      "vol_monthly": 0.15758984,
-      "vol_weekly": 0.15473509
+      "vol_semiannual": 0.14508094,
+      "vol_quarterly": 0.16636719,
+      "vol_monthly": 0.15767251,
+      "vol_weekly": 0.14370897
     },
     {
       "symbol": "000300.SS",
@@ -1095,10 +1095,10 @@
         }
       ],
       "vol_annual": 0.14657476,
-      "vol_semiannual": 0.15870307,
-      "vol_quarterly": 0.1882908,
-      "vol_monthly": 0.18845017,
-      "vol_weekly": 0.18773145
+      "vol_semiannual": 0.15941839,
+      "vol_quarterly": 0.18985076,
+      "vol_monthly": 0.19305322,
+      "vol_weekly": 0.1918212
     },
     {
       "symbol": "399001.SZ",
@@ -1138,10 +1138,10 @@
         }
       ],
       "vol_annual": 0.2043469,
-      "vol_semiannual": 0.22813631,
-      "vol_quarterly": 0.26884345,
-      "vol_monthly": 0.29684901,
-      "vol_weekly": 0.39424305
+      "vol_semiannual": 0.22918143,
+      "vol_quarterly": 0.27117751,
+      "vol_monthly": 0.30482636,
+      "vol_weekly": 0.35702674
     },
     {
       "symbol": "399006.SZ",
@@ -1200,10 +1200,10 @@
         }
       ],
       "vol_annual": 0.19919717,
-      "vol_semiannual": 0.19294988,
-      "vol_quarterly": 0.19442029,
-      "vol_monthly": 0.19021022,
-      "vol_weekly": 0.19327257
+      "vol_semiannual": 0.19385752,
+      "vol_quarterly": 0.19556777,
+      "vol_monthly": 0.19421228,
+      "vol_weekly": 0.20409401
     },
     {
       "symbol": "^AXJO",
@@ -1242,11 +1242,11 @@
           "close": 8914.0
         }
       ],
-      "vol_annual": 0.12998233,
-      "vol_semiannual": 0.14651082,
-      "vol_quarterly": 0.14782225,
-      "vol_monthly": 0.16054175,
-      "vol_weekly": 0.14862385
+      "vol_annual": 0.13011923,
+      "vol_semiannual": 0.14623756,
+      "vol_quarterly": 0.14795027,
+      "vol_monthly": 0.16146334,
+      "vol_weekly": 0.1773796
     },
     {
       "symbol": "^STI",
@@ -1286,10 +1286,10 @@
         }
       ],
       "vol_annual": 0.12995326,
-      "vol_semiannual": 0.12662339,
-      "vol_quarterly": 0.12244678,
-      "vol_monthly": 0.15858348,
-      "vol_weekly": 0.1672607
+      "vol_semiannual": 0.12692174,
+      "vol_quarterly": 0.12330242,
+      "vol_monthly": 0.15180006,
+      "vol_weekly": 0.03453895
     }
   ]
 }
