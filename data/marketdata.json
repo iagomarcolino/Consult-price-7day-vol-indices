@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T20:14:47Z",
+  "generated_at_utc": "2026-06-19T21:37:09Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -716,10 +716,10 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 168457.375,
+      "price": 168333.609375,
       "close_d1": 168278.0,
-      "change_pts": 179.375,
-      "change_pct": 0.00106594,
+      "change_pts": 55.609375,
+      "change_pct": 0.00033046,
       "daily_7d": [
         {
           "date": "2026-06-11",
@@ -747,22 +747,22 @@
         },
         {
           "date": "2026-06-19",
-          "close": 168457.375
+          "close": 168333.609375
         }
       ],
-      "vol_annual": 0.170755,
-      "vol_semiannual": 0.19595343,
-      "vol_quarterly": 0.16915739,
-      "vol_monthly": 0.13558602,
-      "vol_weekly": 0.05051517
+      "vol_annual": 0.17075532,
+      "vol_semiannual": 0.19595399,
+      "vol_quarterly": 0.16912574,
+      "vol_monthly": 0.13535005,
+      "vol_weekly": 0.04678124
     },
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 28409.480469,
+      "price": 28388.339844,
       "close_d1": 28379.720703,
-      "change_pts": 29.759766,
-      "change_pct": 0.00104863,
+      "change_pts": 8.619141,
+      "change_pct": 0.00030371,
       "daily_7d": [
         {
           "date": "2026-06-11",
@@ -790,22 +790,22 @@
         },
         {
           "date": "2026-06-19",
-          "close": 28409.480469
+          "close": 28388.339844
         }
       ],
-      "vol_annual": 0.16892765,
-      "vol_semiannual": 0.19293446,
-      "vol_quarterly": 0.16327019,
-      "vol_monthly": 0.13229174,
-      "vol_weekly": 0.0491897
+      "vol_annual": 0.16892805,
+      "vol_semiannual": 0.19293587,
+      "vol_quarterly": 0.16323645,
+      "vol_monthly": 0.13203791,
+      "vol_weekly": 0.04536422
     },
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 141.770004,
+      "price": 141.179993,
       "close_d1": 141.039993,
-      "change_pts": 0.730011,
-      "change_pct": 0.00517591,
+      "change_pts": 0.139999,
+      "change_pct": 0.00099262,
       "daily_7d": [
         {
           "date": "2026-06-11",
@@ -833,14 +833,14 @@
         },
         {
           "date": "2026-06-19",
-          "close": 141.770004
+          "close": 141.179993
         }
       ],
-      "vol_annual": 0.16890467,
-      "vol_semiannual": 0.19392294,
-      "vol_quarterly": 0.16632858,
-      "vol_monthly": 0.1364824,
-      "vol_weekly": 0.07510995
+      "vol_annual": 0.16886786,
+      "vol_semiannual": 0.19381151,
+      "vol_quarterly": 0.16587847,
+      "vol_monthly": 0.13422327,
+      "vol_weekly": 0.05030501
     },
     {
       "symbol": "^N225",
@@ -1017,10 +1017,10 @@
     {
       "symbol": "000001.SS",
       "name": "SSE Composite Index (Shanghai)",
-      "price": 4090.480957,
+      "price": 4090.481,
       "close_d1": 4108.076172,
-      "change_pts": -17.595215,
-      "change_pct": -0.00428308,
+      "change_pts": -17.595172,
+      "change_pct": -0.00428307,
       "daily_7d": [
         {
           "date": "2026-06-10",
@@ -1103,10 +1103,10 @@
     {
       "symbol": "399001.SZ",
       "name": "SZSE Component Index (Shenzhen)",
-      "price": 16030.700195,
+      "price": 16030.702,
       "close_d1": 15880.950195,
-      "change_pts": 149.75,
-      "change_pct": 0.00942954,
+      "change_pts": 149.751805,
+      "change_pct": 0.00942965,
       "daily_7d": [
         {
           "date": "2026-06-10",
@@ -1252,10 +1252,14 @@
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
       "price": 5192.7,
-      "close_d1": 5176.459961,
-      "change_pts": 16.240039,
-      "change_pct": 0.00313729,
+      "close_d1": 5116.859863,
+      "change_pts": 75.840137,
+      "change_pct": 0.01482162,
       "daily_7d": [
+        {
+          "date": "2026-06-09",
+          "close": 5023.25
+        },
         {
           "date": "2026-06-10",
           "close": 4958.850098
@@ -1279,17 +1283,13 @@
         {
           "date": "2026-06-17",
           "close": 5176.459961
-        },
-        {
-          "date": "2026-06-18",
-          "close": 5212.839844
         }
       ],
-      "vol_annual": 0.13035076,
-      "vol_semiannual": 0.1276258,
-      "vol_quarterly": 0.11578551,
-      "vol_monthly": 0.155705,
-      "vol_weekly": 0.03370647
+      "vol_annual": 0.13042165,
+      "vol_semiannual": 0.12786176,
+      "vol_quarterly": 0.11615032,
+      "vol_monthly": 0.15954682,
+      "vol_weekly": 0.03067226
     }
   ]
 }
