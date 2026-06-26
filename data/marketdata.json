@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-25T22:47:00Z",
+  "generated_at_utc": "2026-06-26T00:10:06Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -243,11 +243,15 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10529.889648,
-      "close_d1": 10461.599609,
-      "change_pts": 68.290039,
-      "change_pct": 0.00652769,
+      "price": 10529.89,
+      "close_d1": 10428.900391,
+      "change_pts": 100.989609,
+      "change_pct": 0.00968363,
       "daily_7d": [
+        {
+          "date": "2026-06-16",
+          "close": 10494.200195
+        },
         {
           "date": "2026-06-17",
           "close": 10508.599609
@@ -271,26 +275,26 @@
         {
           "date": "2026-06-24",
           "close": 10461.599609
-        },
-        {
-          "date": "2026-06-25",
-          "close": 10529.889648
         }
       ],
-      "vol_annual": 0.12411689,
-      "vol_semiannual": 0.13809273,
-      "vol_quarterly": 0.13434029,
-      "vol_monthly": 0.10715754,
-      "vol_weekly": 0.07346393
+      "vol_annual": 0.12418742,
+      "vol_semiannual": 0.13841874,
+      "vol_quarterly": 0.13505646,
+      "vol_monthly": 0.10732092,
+      "vol_weekly": 0.07416552
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 23161.410156,
-      "close_d1": 23101.5,
-      "change_pts": 59.910156,
-      "change_pct": 0.00259334,
+      "price": 23161.41,
+      "close_d1": 22926.5,
+      "change_pts": 234.91,
+      "change_pct": 0.01024622,
       "daily_7d": [
+        {
+          "date": "2026-06-16",
+          "close": 23326.599609
+        },
         {
           "date": "2026-06-17",
           "close": 23364.699219
@@ -314,17 +318,13 @@
         {
           "date": "2026-06-24",
           "close": 23101.5
-        },
-        {
-          "date": "2026-06-25",
-          "close": 23161.410156
         }
       ],
-      "vol_annual": 0.13796658,
-      "vol_semiannual": 0.15238694,
-      "vol_quarterly": 0.15933571,
-      "vol_monthly": 0.10536817,
-      "vol_weekly": 0.11846256
+      "vol_annual": 0.13813346,
+      "vol_semiannual": 0.15300988,
+      "vol_quarterly": 0.16079519,
+      "vol_monthly": 0.10750561,
+      "vol_weekly": 0.13035295
     },
     {
       "symbol": "^FCHI",
@@ -888,10 +888,10 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 425.899994,
+      "price": 425.9,
       "close_d1": 419.899994,
-      "change_pts": 6.0,
-      "change_pct": 0.01428912,
+      "change_pts": 6.000006,
+      "change_pct": 0.01428913,
       "daily_7d": [
         {
           "date": "2026-06-17",
@@ -965,7 +965,7 @@
           "close": 8471.019531
         }
       ],
-      "vol_annual": 0.34942876,
+      "vol_annual": 0.34966793,
       "vol_semiannual": 0.55719536,
       "vol_quarterly": 0.58777749,
       "vol_monthly": 0.76487407,
@@ -1008,7 +1008,7 @@
           "close": 909.309998
         }
       ],
-      "vol_annual": 0.34963329,
+      "vol_annual": 0.3490327,
       "vol_semiannual": 0.54579159,
       "vol_quarterly": 0.51407971,
       "vol_monthly": 0.63558804,
@@ -1242,7 +1242,7 @@
           "close": 8808.400391
         }
       ],
-      "vol_annual": 0.1297957,
+      "vol_annual": 0.1299452,
       "vol_semiannual": 0.14486042,
       "vol_quarterly": 0.14088826,
       "vol_monthly": 0.14577175,
