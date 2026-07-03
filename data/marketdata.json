@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-02T22:48:10Z",
+  "generated_at_utc": "2026-07-03T00:05:45Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -243,11 +243,15 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10652.870117,
-      "close_d1": 10478.299805,
-      "change_pts": 174.570312,
-      "change_pct": 0.01666018,
+      "price": 10652.87,
+      "close_d1": 10497.099609,
+      "change_pts": 155.770391,
+      "change_pct": 0.01483937,
       "daily_7d": [
+        {
+          "date": "2026-06-23",
+          "close": 10428.900391
+        },
         {
           "date": "2026-06-24",
           "close": 10461.599609
@@ -271,26 +275,26 @@
         {
           "date": "2026-07-01",
           "close": 10478.299805
-        },
-        {
-          "date": "2026-07-02",
-          "close": 10652.870117
         }
       ],
-      "vol_annual": 0.12475199,
-      "vol_semiannual": 0.13741993,
-      "vol_quarterly": 0.13052575,
-      "vol_monthly": 0.11347517,
-      "vol_weekly": 0.12804529
+      "vol_annual": 0.12425228,
+      "vol_semiannual": 0.13601127,
+      "vol_quarterly": 0.12725911,
+      "vol_monthly": 0.10194341,
+      "vol_weekly": 0.02619442
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 23417.580078,
-      "close_d1": 23330.099609,
-      "change_pts": 87.480469,
-      "change_pct": 0.00374968,
+      "price": 23417.58,
+      "close_d1": 23013.5,
+      "change_pts": 404.08,
+      "change_pct": 0.01755839,
       "daily_7d": [
+        {
+          "date": "2026-06-23",
+          "close": 22926.5
+        },
         {
           "date": "2026-06-24",
           "close": 23101.5
@@ -314,17 +318,13 @@
         {
           "date": "2026-07-01",
           "close": 23330.099609
-        },
-        {
-          "date": "2026-07-02",
-          "close": 23417.580078
         }
       ],
-      "vol_annual": 0.13803056,
-      "vol_semiannual": 0.151656,
-      "vol_quarterly": 0.15152062,
-      "vol_monthly": 0.10822613,
-      "vol_weekly": 0.11494784
+      "vol_annual": 0.13818207,
+      "vol_semiannual": 0.15221337,
+      "vol_quarterly": 0.15278361,
+      "vol_monthly": 0.11036506,
+      "vol_weekly": 0.13178564
     },
     {
       "symbol": "^FCHI",
@@ -879,7 +879,7 @@
           "close": 70474.960938
         }
       ],
-      "vol_annual": 0.25433296,
+      "vol_annual": 0.25463198,
       "vol_semiannual": 0.30994966,
       "vol_quarterly": 0.30824148,
       "vol_monthly": 0.39418825,
@@ -888,10 +888,10 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 426.399994,
+      "price": 426.4,
       "close_d1": 425.799988,
-      "change_pts": 0.600006,
-      "change_pct": 0.00140913,
+      "change_pts": 0.600012,
+      "change_pct": 0.00140914,
       "daily_7d": [
         {
           "date": "2026-06-24",
@@ -922,7 +922,7 @@
           "close": 426.399994
         }
       ],
-      "vol_annual": 2.71027235,
+      "vol_annual": 2.71388308,
       "vol_semiannual": 4.97873453,
       "vol_quarterly": 0.18071306,
       "vol_monthly": 0.21768494,
@@ -965,7 +965,7 @@
           "close": 8303.410156
         }
       ],
-      "vol_annual": 0.35573635,
+      "vol_annual": 0.35601307,
       "vol_semiannual": 0.56505746,
       "vol_quarterly": 0.57169793,
       "vol_monthly": 0.78350901,
@@ -1008,7 +1008,7 @@
           "close": 929.349976
         }
       ],
-      "vol_annual": 0.35627109,
+      "vol_annual": 0.35635979,
       "vol_semiannual": 0.55841882,
       "vol_quarterly": 0.51360538,
       "vol_monthly": 0.70929308,
@@ -1060,44 +1060,15 @@
     {
       "symbol": "000300.SS",
       "name": "CSI 300 (Shanghai + Shenzhen)",
-      "price": 4812.296,
-      "close_d1": 5020.100098,
-      "change_pts": -207.804098,
-      "change_pct": -0.04139441,
-      "daily_7d": [
-        {
-          "date": "2026-06-17",
-          "close": 4931.390137
-        },
-        {
-          "date": "2026-06-18",
-          "close": 4941.600098
-        },
-        {
-          "date": "2026-06-22",
-          "close": 5059.660156
-        },
-        {
-          "date": "2026-06-23",
-          "close": 4919.390137
-        },
-        {
-          "date": "2026-06-24",
-          "close": 4943.02002
-        },
-        {
-          "date": "2026-06-25",
-          "close": 5020.100098
-        },
-        {
-          "date": "2026-06-26",
-          "close": 4868.220215
-        }
-      ],
-      "vol_annual": 0.1485141,
-      "vol_semiannual": 0.17600625,
-      "vol_quarterly": 0.1984386,
-      "vol_monthly": 0.26950754,
+      "price": null,
+      "close_d1": null,
+      "change_pts": null,
+      "change_pct": null,
+      "daily_7d": [],
+      "vol_annual": null,
+      "vol_semiannual": null,
+      "vol_quarterly": null,
+      "vol_monthly": null,
       "vol_weekly": null
     },
     {
@@ -1242,7 +1213,7 @@
           "close": 8722.900391
         }
       ],
-      "vol_annual": 0.12993088,
+      "vol_annual": 0.13009526,
       "vol_semiannual": 0.14475236,
       "vol_quarterly": 0.13137035,
       "vol_monthly": 0.12701789,
