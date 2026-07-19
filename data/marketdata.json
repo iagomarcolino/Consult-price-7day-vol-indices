@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-19T13:42:48Z",
+  "generated_at_utc": "2026-07-19T14:41:28Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -415,16 +415,45 @@
     {
       "symbol": "^BFX",
       "name": "BEL 20 (Belgium)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 5630.209961,
+      "close_d1": 5617.839844,
+      "change_pts": 12.370117,
+      "change_pct": 0.00220193,
+      "daily_7d": [
+        {
+          "date": "2026-07-09",
+          "close": 5647.959961
+        },
+        {
+          "date": "2026-07-10",
+          "close": 5594.080078
+        },
+        {
+          "date": "2026-07-13",
+          "close": 5604.450195
+        },
+        {
+          "date": "2026-07-14",
+          "close": 5618.27002
+        },
+        {
+          "date": "2026-07-15",
+          "close": 5613.509766
+        },
+        {
+          "date": "2026-07-16",
+          "close": 5617.839844
+        },
+        {
+          "date": "2026-07-17",
+          "close": 5630.209961
+        }
+      ],
+      "vol_annual": 0.14900929,
+      "vol_semiannual": 0.16259701,
+      "vol_quarterly": 0.13457936,
+      "vol_monthly": 0.12411086,
+      "vol_weekly": 0.02152945
     },
     {
       "symbol": "^GDAXI",
