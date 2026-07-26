@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-26T11:19:02Z",
+  "generated_at_utc": "2026-07-26T12:37:49Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -53,14 +53,10 @@
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
       "price": 23990.880859,
-      "close_d1": 23919.710938,
-      "change_pts": 71.169922,
-      "change_pct": 0.00297537,
+      "close_d1": 23874.269531,
+      "change_pts": 116.611328,
+      "change_pct": 0.00488439,
       "daily_7d": [
-        {
-          "date": "2026-07-15",
-          "close": 23872.529297
-        },
         {
           "date": "2026-07-16",
           "close": 23952.269531
@@ -84,13 +80,17 @@
         {
           "date": "2026-07-23",
           "close": 23874.269531
+        },
+        {
+          "date": "2026-07-24",
+          "close": 23990.880859
         }
       ],
-      "vol_annual": 0.14576493,
-      "vol_semiannual": 0.12697164,
-      "vol_quarterly": 0.10909232,
-      "vol_monthly": 0.07961985,
-      "vol_weekly": 0.10377327
+      "vol_annual": 0.1456148,
+      "vol_semiannual": 0.12660162,
+      "vol_quarterly": 0.10849001,
+      "vol_monthly": 0.07911495,
+      "vol_weekly": 0.09484921
     },
     {
       "symbol": "^IXIC",
@@ -545,10 +545,14 @@
       "symbol": "^SSMI",
       "name": "SMI - Swiss Market Index",
       "price": 14327.200195,
-      "close_d1": 14214.950195,
-      "change_pts": 112.25,
-      "change_pct": 0.00789662,
+      "close_d1": 14315.879883,
+      "change_pts": 11.320312,
+      "change_pct": 0.00079075,
       "daily_7d": [
+        {
+          "date": "2026-07-15",
+          "close": 14307.30957
+        },
         {
           "date": "2026-07-16",
           "close": 14267.19043
@@ -572,30 +576,22 @@
         {
           "date": "2026-07-23",
           "close": 14214.950195
-        },
-        {
-          "date": "2026-07-24",
-          "close": 14327.200195
         }
       ],
-      "vol_annual": 0.14349513,
-      "vol_semiannual": 0.13960773,
-      "vol_quarterly": 0.11129785,
-      "vol_monthly": 0.10453553,
-      "vol_weekly": 0.10092188
+      "vol_annual": 0.14355939,
+      "vol_semiannual": 0.13983369,
+      "vol_quarterly": 0.11149917,
+      "vol_monthly": 0.10348626,
+      "vol_weekly": 0.08184371
     },
     {
       "symbol": "^SSHI",
       "name": "SPI - Swiss Performance Index",
       "price": 20069.669922,
-      "close_d1": 20091.25,
-      "change_pts": -21.580078,
-      "change_pct": -0.0010741,
+      "close_d1": 19932.099609,
+      "change_pts": 137.570312,
+      "change_pct": 0.00690195,
       "daily_7d": [
-        {
-          "date": "2026-07-15",
-          "close": 20110.330078
-        },
         {
           "date": "2026-07-16",
           "close": 20068.910156
@@ -619,13 +615,17 @@
         {
           "date": "2026-07-23",
           "close": 19932.099609
+        },
+        {
+          "date": "2026-07-24",
+          "close": 20069.669922
         }
       ],
-      "vol_annual": 0.13557224,
-      "vol_semiannual": 0.13259165,
-      "vol_quarterly": 0.10584557,
-      "vol_monthly": 0.09790487,
-      "vol_weekly": 0.08151318
+      "vol_annual": 0.13548999,
+      "vol_semiannual": 0.13230179,
+      "vol_quarterly": 0.10552467,
+      "vol_monthly": 0.09860971,
+      "vol_weekly": 0.09848928
     },
     {
       "symbol": "^BSESN",
@@ -931,10 +931,10 @@
     {
       "symbol": "^KS11",
       "name": "KOSPI (South Korea)",
-      "price": 6690.62,
+      "price": 6690.620117,
       "close_d1": 7096.890137,
-      "change_pts": -406.270137,
-      "change_pct": -0.05724622,
+      "change_pts": -406.27002,
+      "change_pct": -0.0572462,
       "daily_7d": [
         {
           "date": "2026-07-15",
@@ -1018,14 +1018,10 @@
       "symbol": "000001.SS",
       "name": "SSE Composite Index (Shanghai)",
       "price": 3814.197998,
-      "close_d1": 3867.033936,
-      "change_pts": -52.835938,
-      "change_pct": -0.01366317,
+      "close_d1": 3876.7771,
+      "change_pts": -62.579102,
+      "change_pct": -0.01614204,
       "daily_7d": [
-        {
-          "date": "2026-07-15",
-          "close": 3955.577881
-        },
         {
           "date": "2026-07-16",
           "close": 3882.413086
@@ -1049,13 +1045,17 @@
         {
           "date": "2026-07-23",
           "close": 3876.7771
+        },
+        {
+          "date": "2026-07-24",
+          "close": 3814.197998
         }
       ],
-      "vol_annual": 0.1294449,
-      "vol_semiannual": 0.16995484,
-      "vol_quarterly": 0.17374129,
-      "vol_monthly": 0.22536537,
-      "vol_weekly": 0.12218869
+      "vol_annual": 0.1299795,
+      "vol_semiannual": 0.17073783,
+      "vol_quarterly": 0.17498969,
+      "vol_monthly": 0.2243876,
+      "vol_weekly": 0.19842619
     },
     {
       "symbol": "000300.SS",
@@ -1251,10 +1251,10 @@
     {
       "symbol": "^STI",
       "name": "Straits Times Index (Singapore)",
-      "price": 5588.34,
+      "price": 5588.339844,
       "close_d1": 5581.759766,
-      "change_pts": 6.580234,
-      "change_pct": 0.00117888,
+      "change_pts": 6.580078,
+      "change_pct": 0.00117885,
       "daily_7d": [
         {
           "date": "2026-07-16",
