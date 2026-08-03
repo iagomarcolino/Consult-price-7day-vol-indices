@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-03T18:05:08Z",
+  "generated_at_utc": "2026-08-03T19:57:37Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,10 +9,10 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": 53114.46875,
+      "price": 53225.578125,
       "close_d1": 52485.03125,
-      "change_pts": 629.4375,
-      "change_pct": 0.01199271,
+      "change_pts": 740.546875,
+      "change_pct": 0.01410968,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -40,22 +40,22 @@
         },
         {
           "date": "2026-08-03",
-          "close": 53113.550781
+          "close": 53224.820312
         }
       ],
-      "vol_annual": 0.1557469,
-      "vol_semiannual": 0.1398203,
-      "vol_quarterly": 0.12846417,
-      "vol_monthly": 0.13405022,
-      "vol_weekly": 0.23061554
+      "vol_annual": 0.15585705,
+      "vol_semiannual": 0.1402299,
+      "vol_quarterly": 0.12933372,
+      "vol_monthly": 0.1366838,
+      "vol_weekly": 0.23587795
     },
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 24203.908203,
+      "price": 24241.929688,
       "close_d1": 24107.539062,
-      "change_pts": 96.369141,
-      "change_pct": 0.00399747,
+      "change_pts": 134.390625,
+      "change_pct": 0.00557463,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -83,22 +83,22 @@
         },
         {
           "date": "2026-08-03",
-          "close": 24203.908203
+          "close": 24241.929688
         }
       ],
-      "vol_annual": 0.14392362,
-      "vol_semiannual": 0.1225142,
-      "vol_quarterly": 0.10312442,
-      "vol_monthly": 0.08817403,
-      "vol_weekly": 0.12485428
+      "vol_annual": 0.14395387,
+      "vol_semiannual": 0.12264159,
+      "vol_quarterly": 0.10341797,
+      "vol_monthly": 0.0892228,
+      "vol_weekly": 0.12778764
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq Composite Index",
-      "price": 25958.482422,
+      "price": 25902.90625,
       "close_d1": 25373.849609,
-      "change_pts": 584.632812,
-      "change_pct": 0.02304076,
+      "change_pts": 529.056641,
+      "change_pct": 0.02085047,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -126,22 +126,22 @@
         },
         {
           "date": "2026-08-03",
-          "close": 25958.482422
+          "close": 25904.472656
         }
       ],
-      "vol_annual": 0.22814405,
-      "vol_semiannual": 0.21010691,
-      "vol_quarterly": 0.21988948,
-      "vol_monthly": 0.21532017,
-      "vol_weekly": 0.29256705
+      "vol_annual": 0.22801698,
+      "vol_semiannual": 0.20965338,
+      "vol_quarterly": 0.21895647,
+      "vol_monthly": 0.21246564,
+      "vol_weekly": 0.28627533
     },
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 28824.470703,
+      "price": 28769.707031,
       "close_d1": 28274.199219,
-      "change_pts": 550.271484,
-      "change_pct": 0.01946197,
+      "change_pts": 495.507812,
+      "change_pct": 0.01752509,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -169,14 +169,14 @@
         },
         {
           "date": "2026-08-03",
-          "close": 28824.470703
+          "close": 28770.84375
         }
       ],
-      "vol_annual": 0.22925405,
-      "vol_semiannual": 0.22820708,
-      "vol_quarterly": 0.25866836,
-      "vol_monthly": 0.24306265,
-      "vol_weekly": 0.34387125
+      "vol_annual": 0.22915925,
+      "vol_semiannual": 0.22789513,
+      "vol_quarterly": 0.25806138,
+      "vol_monthly": 0.24103379,
+      "vol_weekly": 0.339405
     },
     {
       "symbol": "^GSPTSE",
@@ -630,11 +630,15 @@
     {
       "symbol": "^BSESN",
       "name": "SENSEX (India)",
-      "price": 78639.03125,
-      "close_d1": 78094.640625,
-      "change_pts": 544.390625,
-      "change_pct": 0.00697091,
+      "price": 78639.03,
+      "close_d1": 77928.148438,
+      "change_pts": 710.881562,
+      "change_pct": 0.00912227,
       "daily_7d": [
+        {
+          "date": "2026-07-23",
+          "close": 76391.390625
+        },
         {
           "date": "2026-07-24",
           "close": 76059.773438
@@ -658,26 +662,26 @@
         {
           "date": "2026-07-31",
           "close": 78094.640625
-        },
-        {
-          "date": "2026-08-03",
-          "close": 78639.03125
         }
       ],
-      "vol_annual": 0.13221412,
-      "vol_semiannual": 0.16812956,
-      "vol_quarterly": 0.12754235,
-      "vol_monthly": 0.12878505,
-      "vol_weekly": 0.07565725
+      "vol_annual": 0.13226563,
+      "vol_semiannual": 0.16852126,
+      "vol_quarterly": 0.12792216,
+      "vol_monthly": 0.1299447,
+      "vol_weekly": 0.08410175
     },
     {
       "symbol": "^NSEI",
       "name": "NIFTY 50 (India)",
-      "price": 24774.300781,
-      "close_d1": 24383.599609,
-      "change_pts": 390.701172,
-      "change_pct": 0.01602311,
+      "price": 24774.3,
+      "close_d1": 24317.150391,
+      "change_pts": 457.149609,
+      "change_pct": 0.01879947,
       "daily_7d": [
+        {
+          "date": "2026-07-23",
+          "close": 23869.599609
+        },
         {
           "date": "2026-07-24",
           "close": 23767.449219
@@ -701,25 +705,21 @@
         {
           "date": "2026-07-31",
           "close": 24383.599609
-        },
-        {
-          "date": "2026-08-03",
-          "close": 24774.300781
         }
       ],
-      "vol_annual": 0.13134892,
-      "vol_semiannual": 0.16385296,
-      "vol_quarterly": 0.12266888,
-      "vol_monthly": 0.13127653,
-      "vol_weekly": 0.10787796
+      "vol_annual": 0.13086977,
+      "vol_semiannual": 0.16273371,
+      "vol_quarterly": 0.11943598,
+      "vol_monthly": 0.12264223,
+      "vol_weekly": 0.07757062
     },
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 177602.09375,
+      "price": 177899.953125,
       "close_d1": 177999.0,
-      "change_pts": -396.90625,
-      "change_pct": -0.00222982,
+      "change_pts": -99.046875,
+      "change_pct": -0.00055645,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -747,22 +747,22 @@
         },
         {
           "date": "2026-08-03",
-          "close": 177602.09375
+          "close": 177899.953125
         }
       ],
-      "vol_annual": 0.16781115,
-      "vol_semiannual": 0.18846344,
-      "vol_quarterly": 0.16781494,
-      "vol_monthly": 0.19625756,
-      "vol_weekly": 0.19844797
+      "vol_annual": 0.16779464,
+      "vol_semiannual": 0.1884349,
+      "vol_quarterly": 0.16778855,
+      "vol_monthly": 0.19600594,
+      "vol_weekly": 0.19623781
     },
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 29946.910156,
+      "price": 29993.919922,
       "close_d1": 30048.189453,
-      "change_pts": -101.279297,
-      "change_pct": -0.00337056,
+      "change_pts": -54.269531,
+      "change_pct": -0.00180608,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -790,22 +790,22 @@
         },
         {
           "date": "2026-08-03",
-          "close": 29946.910156
+          "close": 29993.919922
         }
       ],
-      "vol_annual": 0.16622055,
-      "vol_semiannual": 0.18460293,
-      "vol_quarterly": 0.16319606,
-      "vol_monthly": 0.1921693,
-      "vol_weekly": 0.1943614
+      "vol_annual": 0.1661976,
+      "vol_semiannual": 0.18455261,
+      "vol_quarterly": 0.16312285,
+      "vol_monthly": 0.19179928,
+      "vol_weekly": 0.19158416
     },
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 148.5,
+      "price": 148.699997,
       "close_d1": 148.929993,
-      "change_pts": -0.429993,
-      "change_pct": -0.00288721,
+      "change_pts": -0.229996,
+      "change_pct": -0.00154432,
       "daily_7d": [
         {
           "date": "2026-07-24",
@@ -833,14 +833,14 @@
         },
         {
           "date": "2026-08-03",
-          "close": 148.5
+          "close": 148.699997
         }
       ],
-      "vol_annual": 0.16704676,
-      "vol_semiannual": 0.1854659,
-      "vol_quarterly": 0.16390551,
-      "vol_monthly": 0.19244789,
-      "vol_weekly": 0.21626337
+      "vol_annual": 0.16702904,
+      "vol_semiannual": 0.18542915,
+      "vol_quarterly": 0.16385452,
+      "vol_monthly": 0.19217239,
+      "vol_weekly": 0.21439248
     },
     {
       "symbol": "^N225",
