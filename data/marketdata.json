@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-09T04:01:04Z",
+  "generated_at_utc": "2026-08-09T05:18:03Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,16 +9,45 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 54036.929688,
+      "close_d1": 53885.101562,
+      "change_pts": 151.828125,
+      "change_pct": 0.00281763,
+      "daily_7d": [
+        {
+          "date": "2026-07-30",
+          "close": 52208.058594
+        },
+        {
+          "date": "2026-07-31",
+          "close": 52485.03125
+        },
+        {
+          "date": "2026-08-03",
+          "close": 53178.410156
+        },
+        {
+          "date": "2026-08-04",
+          "close": 54085.878906
+        },
+        {
+          "date": "2026-08-05",
+          "close": 54349.121094
+        },
+        {
+          "date": "2026-08-06",
+          "close": 53885.101562
+        },
+        {
+          "date": "2026-08-07",
+          "close": 54036.929688
+        }
+      ],
+      "vol_annual": 0.1560093,
+      "vol_semiannual": 0.14140535,
+      "vol_quarterly": 0.13408937,
+      "vol_monthly": 0.14213079,
+      "vol_weekly": 0.15749943
     },
     {
       "symbol": "^NYA",
