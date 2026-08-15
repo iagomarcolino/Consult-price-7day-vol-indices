@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T20:48:18Z",
+  "generated_at_utc": "2026-08-15T21:20:35Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -888,16 +888,45 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 437.799988,
+      "close_d1": 435.399994,
+      "change_pts": 2.399994,
+      "change_pct": 0.00551216,
+      "daily_7d": [
+        {
+          "date": "2026-08-05",
+          "close": 421.299988
+        },
+        {
+          "date": "2026-08-06",
+          "close": 423.700012
+        },
+        {
+          "date": "2026-08-07",
+          "close": 425.100006
+        },
+        {
+          "date": "2026-08-10",
+          "close": 427.600006
+        },
+        {
+          "date": "2026-08-12",
+          "close": 431.899994
+        },
+        {
+          "date": "2026-08-13",
+          "close": 435.399994
+        },
+        {
+          "date": "2026-08-14",
+          "close": 437.799988
+        }
+      ],
+      "vol_annual": 2.71788331,
+      "vol_semiannual": 4.97881866,
+      "vol_quarterly": 0.20053212,
+      "vol_monthly": 0.21533559,
+      "vol_weekly": 0.02210349
     },
     {
       "symbol": "^KS11",
