@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T22:51:11Z",
+  "generated_at_utc": "2026-08-19T23:22:45Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -243,11 +243,15 @@
     {
       "symbol": "^FTSE",
       "name": "FTSE 100",
-      "price": 10743.349609,
-      "close_d1": 10728.0,
-      "change_pts": 15.349609,
-      "change_pct": 0.0014308,
+      "price": 10743.35,
+      "close_d1": 10720.299805,
+      "change_pts": 23.050195,
+      "change_pct": 0.00215014,
       "daily_7d": [
+        {
+          "date": "2026-08-10",
+          "close": 10862.5
+        },
         {
           "date": "2026-08-11",
           "close": 10844.200195
@@ -271,26 +275,26 @@
         {
           "date": "2026-08-18",
           "close": 10728.0
-        },
-        {
-          "date": "2026-08-19",
-          "close": 10743.349609
         }
       ],
-      "vol_annual": 0.12404168,
-      "vol_semiannual": 0.13745444,
-      "vol_quarterly": 0.09221593,
-      "vol_monthly": 0.06281068,
-      "vol_weekly": 0.04501673
+      "vol_annual": 0.12420224,
+      "vol_semiannual": 0.13805356,
+      "vol_quarterly": 0.09303303,
+      "vol_monthly": 0.06481376,
+      "vol_weekly": 0.04118118
     },
     {
       "symbol": "^FTMC",
       "name": "FTSE 250",
-      "price": 24643.519531,
-      "close_d1": 24561.400391,
-      "change_pts": 82.119141,
-      "change_pct": 0.00334342,
+      "price": 24643.52,
+      "close_d1": 24704.400391,
+      "change_pts": -60.880391,
+      "change_pct": -0.00246435,
       "daily_7d": [
+        {
+          "date": "2026-08-10",
+          "close": 24744.5
+        },
         {
           "date": "2026-08-11",
           "close": 24799.800781
@@ -314,17 +318,13 @@
         {
           "date": "2026-08-18",
           "close": 24561.400391
-        },
-        {
-          "date": "2026-08-19",
-          "close": 24643.519531
         }
       ],
-      "vol_annual": 0.13532346,
-      "vol_semiannual": 0.15343148,
-      "vol_quarterly": 0.09746686,
-      "vol_monthly": 0.07226754,
-      "vol_weekly": 0.07132772
+      "vol_annual": 0.13559118,
+      "vol_semiannual": 0.15363717,
+      "vol_quarterly": 0.10276655,
+      "vol_monthly": 0.09489794,
+      "vol_weekly": 0.06663644
     },
     {
       "symbol": "^FCHI",
@@ -707,10 +707,10 @@
           "close": 24154.900391
         }
       ],
-      "vol_annual": 0.12903306,
-      "vol_semiannual": 0.16133002,
-      "vol_quarterly": 0.1092713,
-      "vol_monthly": 0.07695464,
+      "vol_annual": 0.12909962,
+      "vol_semiannual": 0.16018974,
+      "vol_quarterly": 0.11160548,
+      "vol_monthly": 0.09680347,
       "vol_weekly": 0.03060723
     },
     {
