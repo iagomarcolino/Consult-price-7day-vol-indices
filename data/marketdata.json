@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-21T21:38:37Z",
+  "generated_at_utc": "2026-08-21T21:59:37Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -803,14 +803,10 @@
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
       "price": 143.389999,
-      "close_d1": 140.429993,
-      "change_pts": 2.960007,
-      "change_pct": 0.02107817,
+      "close_d1": 140.889999,
+      "change_pts": 2.5,
+      "change_pct": 0.01774434,
       "daily_7d": [
-        {
-          "date": "2026-08-12",
-          "close": 140.429993
-        },
         {
           "date": "2026-08-13",
           "close": 140.050003
@@ -832,15 +828,19 @@
           "close": 140.429993
         },
         {
+          "date": "2026-08-20",
+          "close": 140.889999
+        },
+        {
           "date": "2026-08-21",
           "close": 143.389999
         }
       ],
-      "vol_annual": 0.16672991,
-      "vol_semiannual": 0.18229377,
-      "vol_quarterly": 0.15732927,
-      "vol_monthly": 0.16759858,
-      "vol_weekly": 0.10888736
+      "vol_annual": 0.16684976,
+      "vol_semiannual": 0.18281189,
+      "vol_quarterly": 0.15927223,
+      "vol_monthly": 0.17472736,
+      "vol_weekly": 0.13702288
     },
     {
       "symbol": "^N225",
@@ -888,15 +888,11 @@
     {
       "symbol": "1306.T",
       "name": "NEXT FUNDS TOPIX ETF (proxy do TOPIX)",
-      "price": 424.1,
-      "close_d1": 417.399994,
-      "change_pts": 6.700006,
-      "change_pct": 0.01605176,
+      "price": 424.100006,
+      "close_d1": 422.799988,
+      "change_pts": 1.300018,
+      "change_pct": 0.00307478,
       "daily_7d": [
-        {
-          "date": "2026-08-12",
-          "close": 431.899994
-        },
         {
           "date": "2026-08-13",
           "close": 435.399994
@@ -920,13 +916,17 @@
         {
           "date": "2026-08-20",
           "close": 422.799988
+        },
+        {
+          "date": "2026-08-21",
+          "close": 424.100006
         }
       ],
-      "vol_annual": 2.72164672,
-      "vol_semiannual": 4.95679306,
-      "vol_quarterly": 0.20872983,
-      "vol_monthly": 0.22544892,
-      "vol_weekly": 0.29501719
+      "vol_annual": 2.7180063,
+      "vol_semiannual": 4.93481349,
+      "vol_quarterly": 0.20704577,
+      "vol_monthly": 0.21947464,
+      "vol_weekly": 0.26884414
     },
     {
       "symbol": "^KS11",
