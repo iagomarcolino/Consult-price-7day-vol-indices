@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-22T02:40:29Z",
+  "generated_at_utc": "2026-08-22T03:25:29Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -9,10 +9,10 @@
     {
       "symbol": "^DJI",
       "name": "Dow Jones Industrial Average (DJIA)",
-      "price": 53277.011719,
+      "price": 53277.0,
       "close_d1": 52759.210938,
-      "change_pts": 517.800781,
-      "change_pct": 0.00981441,
+      "change_pts": 517.789062,
+      "change_pct": 0.00981419,
       "daily_7d": [
         {
           "date": "2026-08-13",
@@ -40,14 +40,14 @@
         },
         {
           "date": "2026-08-21",
-          "close": 53277.011719
+          "close": 53277.0
         }
       ],
-      "vol_annual": 0.15554481,
-      "vol_semiannual": 0.13950376,
-      "vol_quarterly": 0.13069443,
-      "vol_monthly": 0.14436851,
-      "vol_weekly": 0.13567084
+      "vol_annual": 0.1555448,
+      "vol_semiannual": 0.13950373,
+      "vol_quarterly": 0.13069436,
+      "vol_monthly": 0.14436835,
+      "vol_weekly": 0.13566967
     },
     {
       "symbol": "^NYA",
@@ -802,11 +802,15 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 143.389999,
-      "close_d1": 140.889999,
-      "change_pts": 2.5,
-      "change_pct": 0.01774434,
+      "price": 143.39,
+      "close_d1": 140.429993,
+      "change_pts": 2.960007,
+      "change_pct": 0.02107817,
       "daily_7d": [
+        {
+          "date": "2026-08-12",
+          "close": 140.429993
+        },
         {
           "date": "2026-08-13",
           "close": 140.050003
@@ -830,17 +834,13 @@
         {
           "date": "2026-08-20",
           "close": 140.889999
-        },
-        {
-          "date": "2026-08-21",
-          "close": 143.389999
         }
       ],
-      "vol_annual": 0.16684976,
-      "vol_semiannual": 0.18281189,
-      "vol_quarterly": 0.15927223,
-      "vol_monthly": 0.17472736,
-      "vol_weekly": 0.13702288
+      "vol_annual": 0.16652219,
+      "vol_semiannual": 0.18160583,
+      "vol_quarterly": 0.15620431,
+      "vol_monthly": 0.16452023,
+      "vol_weekly": 0.09035978
     },
     {
       "symbol": "^N225",
