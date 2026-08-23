@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T20:22:57Z",
+  "generated_at_utc": "2026-08-23T20:49:15Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -1060,19 +1060,43 @@
     {
       "symbol": "000300.SS",
       "name": "CSI 300 (Shanghai + Shenzhen)",
-      "price": 4618.89502,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
+      "price": 4618.895,
+      "close_d1": 4698.439941,
+      "change_pts": -79.544941,
+      "change_pct": -0.01693008,
       "daily_7d": [
         {
-          "date": "2026-08-21",
-          "close": 4618.89502
+          "date": "2026-07-09",
+          "close": 4876.310059
+        },
+        {
+          "date": "2026-07-10",
+          "close": 4780.790039
+        },
+        {
+          "date": "2026-07-13",
+          "close": 4695.379883
+        },
+        {
+          "date": "2026-07-14",
+          "close": 4796.5
+        },
+        {
+          "date": "2026-07-15",
+          "close": 4786.779785
+        },
+        {
+          "date": "2026-07-16",
+          "close": 4698.439941
+        },
+        {
+          "date": "2026-07-17",
+          "close": 4529.100098
         }
       ],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
+      "vol_annual": 0.15710099,
+      "vol_semiannual": 0.21089925,
+      "vol_quarterly": 0.25560908,
       "vol_monthly": null,
       "vol_weekly": null
     },
