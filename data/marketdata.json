@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T16:52:29Z",
+  "generated_at_utc": "2026-08-23T17:20:23Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -716,10 +716,10 @@
     {
       "symbol": "^BVSP",
       "name": "Ibovespa (IBOV)",
-      "price": 171031.734375,
+      "price": 170448.875,
       "close_d1": 167927.0,
-      "change_pts": 3104.734375,
-      "change_pct": 0.0184886,
+      "change_pts": 2521.875,
+      "change_pct": 0.01501769,
       "daily_7d": [
         {
           "date": "2026-08-13",
@@ -747,22 +747,22 @@
         },
         {
           "date": "2026-08-21",
-          "close": 171031.734375
+          "close": 170448.875
         }
       ],
-      "vol_annual": 0.16740919,
-      "vol_semiannual": 0.18626072,
-      "vol_quarterly": 0.1632882,
-      "vol_monthly": 0.17493329,
-      "vol_weekly": 0.13895097
+      "vol_annual": 0.1672007,
+      "vol_semiannual": 0.1855772,
+      "vol_quarterly": 0.16178523,
+      "vol_monthly": 0.17038605,
+      "vol_weekly": 0.11874774
     },
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": 28930.019531,
+      "price": 28811.220703,
       "close_d1": 28423.830078,
-      "change_pts": 506.189453,
-      "change_pct": 0.01780863,
+      "change_pts": 387.390625,
+      "change_pct": 0.01362908,
       "daily_7d": [
         {
           "date": "2026-08-13",
@@ -790,14 +790,14 @@
         },
         {
           "date": "2026-08-21",
-          "close": 28930.019531
+          "close": 28811.220703
         }
       ],
-      "vol_annual": 0.16595565,
-      "vol_semiannual": 0.18221885,
-      "vol_quarterly": 0.16123115,
-      "vol_monthly": 0.17295955,
-      "vol_weekly": 0.13038013
+      "vol_annual": 0.16571856,
+      "vol_semiannual": 0.18142768,
+      "vol_quarterly": 0.15950585,
+      "vol_monthly": 0.16774987,
+      "vol_weekly": 0.10694735
     },
     {
       "symbol": "BRAX11.SA",
@@ -974,16 +974,45 @@
     {
       "symbol": "^KQ11",
       "name": "KOSDAQ (South Korea)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 801.940002,
+      "close_d1": 840.890015,
+      "change_pts": -38.950012,
+      "change_pct": -0.04631998,
+      "daily_7d": [
+        {
+          "date": "2026-08-12",
+          "close": 858.909973
+        },
+        {
+          "date": "2026-08-13",
+          "close": 861.369995
+        },
+        {
+          "date": "2026-08-14",
+          "close": 864.650024
+        },
+        {
+          "date": "2026-08-18",
+          "close": 834.200012
+        },
+        {
+          "date": "2026-08-19",
+          "close": 824.460022
+        },
+        {
+          "date": "2026-08-20",
+          "close": 840.890015
+        },
+        {
+          "date": "2026-08-21",
+          "close": 801.940002
+        }
+      ],
+      "vol_annual": 0.39883578,
+      "vol_semiannual": 0.63528832,
+      "vol_quarterly": 0.67006993,
+      "vol_monthly": 0.73335203,
+      "vol_weekly": 0.53340869
     },
     {
       "symbol": "000001.SS",
