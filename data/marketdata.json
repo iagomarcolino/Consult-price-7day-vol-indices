@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T19:31:29Z",
+  "generated_at_utc": "2026-09-05T21:42:32Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -372,16 +372,45 @@
     {
       "symbol": "^AEX",
       "name": "AEX (Netherlands)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 1113.5,
+      "close_d1": 1104.619995,
+      "change_pts": 8.880005,
+      "change_pct": 0.00803897,
+      "daily_7d": [
+        {
+          "date": "2026-08-27",
+          "close": 1103.380005
+        },
+        {
+          "date": "2026-08-28",
+          "close": 1112.280029
+        },
+        {
+          "date": "2026-08-31",
+          "close": 1105.77002
+        },
+        {
+          "date": "2026-09-01",
+          "close": 1101.920044
+        },
+        {
+          "date": "2026-09-02",
+          "close": 1103.670044
+        },
+        {
+          "date": "2026-09-03",
+          "close": 1104.619995
+        },
+        {
+          "date": "2026-09-04",
+          "close": 1113.5
+        }
+      ],
+      "vol_annual": 0.1417629,
+      "vol_semiannual": 0.1285035,
+      "vol_quarterly": 0.1002746,
+      "vol_monthly": 0.06780302,
+      "vol_weekly": 0.0846535
     },
     {
       "symbol": "^BFX",
@@ -773,15 +802,11 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 155.27,
-      "close_d1": 155.449997,
-      "change_pts": -0.179997,
-      "change_pct": -0.00115791,
+      "price": 155.270004,
+      "close_d1": 155.309998,
+      "change_pts": -0.039993,
+      "change_pct": -0.00025751,
       "daily_7d": [
-        {
-          "date": "2026-08-26",
-          "close": 146.449997
-        },
         {
           "date": "2026-08-27",
           "close": 146.429993
@@ -805,13 +830,17 @@
         {
           "date": "2026-09-03",
           "close": 155.309998
+        },
+        {
+          "date": "2026-09-04",
+          "close": 155.270004
         }
       ],
-      "vol_annual": 0.16785759,
-      "vol_semiannual": 0.17497465,
-      "vol_quarterly": 0.16515756,
-      "vol_monthly": 0.18922781,
-      "vol_weekly": 0.1997089
+      "vol_annual": 0.16764188,
+      "vol_semiannual": 0.17422952,
+      "vol_quarterly": 0.16385487,
+      "vol_monthly": 0.1847364,
+      "vol_weekly": 0.19684795
     },
     {
       "symbol": "^N225",
