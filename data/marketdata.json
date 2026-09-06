@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T23:21:56Z",
+  "generated_at_utc": "2026-09-06T01:13:58Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -759,16 +759,45 @@
     {
       "symbol": "^IBX50",
       "name": "IBrX 50",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 31279.789062,
+      "close_d1": 31289.400391,
+      "change_pts": -9.611328,
+      "change_pct": -0.00030718,
+      "daily_7d": [
+        {
+          "date": "2026-08-27",
+          "close": 29597.929688
+        },
+        {
+          "date": "2026-08-28",
+          "close": 29700.669922
+        },
+        {
+          "date": "2026-08-31",
+          "close": 30011.939453
+        },
+        {
+          "date": "2026-09-01",
+          "close": 30426.849609
+        },
+        {
+          "date": "2026-09-02",
+          "close": 31342.640625
+        },
+        {
+          "date": "2026-09-03",
+          "close": 31289.400391
+        },
+        {
+          "date": "2026-09-04",
+          "close": 31279.789062
+        }
+      ],
+      "vol_annual": 0.16610861,
+      "vol_semiannual": 0.1725647,
+      "vol_quarterly": 0.16445471,
+      "vol_monthly": 0.18381835,
+      "vol_weekly": 0.20124634
     },
     {
       "symbol": "BRAX11.SA",
