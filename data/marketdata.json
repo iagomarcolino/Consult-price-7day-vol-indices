@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-03T07:42:08Z",
+  "generated_at_utc": "2026-10-03T12:44:58Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -329,16 +329,45 @@
     {
       "symbol": "^FCHI",
       "name": "CAC 40 (France)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 7897.189941,
+      "close_d1": 7835.310059,
+      "change_pts": 61.879883,
+      "change_pct": 0.00789757,
+      "daily_7d": [
+        {
+          "date": "2026-09-24",
+          "close": 8081.430176
+        },
+        {
+          "date": "2026-09-25",
+          "close": 8077.799805
+        },
+        {
+          "date": "2026-09-28",
+          "close": 8078.47998
+        },
+        {
+          "date": "2026-09-29",
+          "close": 8035.870117
+        },
+        {
+          "date": "2026-09-30",
+          "close": 7964.509766
+        },
+        {
+          "date": "2026-10-01",
+          "close": 7835.310059
+        },
+        {
+          "date": "2026-10-02",
+          "close": 7897.189941
+        }
+      ],
+      "vol_annual": 0.15344979,
+      "vol_semiannual": 0.1316313,
+      "vol_quarterly": 0.11848798,
+      "vol_monthly": 0.12808657,
+      "vol_weekly": 0.14519764
     },
     {
       "symbol": "^AEX",
