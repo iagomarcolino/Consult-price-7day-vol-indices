@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T09:29:29Z",
+  "generated_at_utc": "2026-11-08T16:14:44Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -458,16 +458,45 @@
     {
       "symbol": "^GDAXI",
       "name": "DAX 40 (Germany)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 25820.359375,
+      "close_d1": 26325.009766,
+      "change_pts": -504.650391,
+      "change_pct": -0.01917,
+      "daily_7d": [
+        {
+          "date": "2026-10-29",
+          "close": 26039.679688
+        },
+        {
+          "date": "2026-10-30",
+          "close": 25818.210938
+        },
+        {
+          "date": "2026-11-02",
+          "close": 25981.089844
+        },
+        {
+          "date": "2026-11-03",
+          "close": 25864.619141
+        },
+        {
+          "date": "2026-11-04",
+          "close": 26437.669922
+        },
+        {
+          "date": "2026-11-05",
+          "close": 26325.009766
+        },
+        {
+          "date": "2026-11-06",
+          "close": 25820.359375
+        }
+      ],
+      "vol_annual": 0.15356732,
+      "vol_semiannual": 0.13798181,
+      "vol_quarterly": 0.13480953,
+      "vol_monthly": 0.16021929,
+      "vol_weekly": 0.27244944
     },
     {
       "symbol": "^MDAXI",
@@ -601,10 +630,10 @@
     {
       "symbol": "^BSESN",
       "name": "SENSEX (India)",
-      "price": 81028.023438,
+      "price": 80999.398438,
       "close_d1": 81028.023438,
-      "change_pts": 0.0,
-      "change_pct": 0.0,
+      "change_pts": -28.625,
+      "change_pct": -0.00035327,
       "daily_7d": [
         {
           "date": "2026-10-30",
@@ -632,22 +661,22 @@
         },
         {
           "date": "2026-11-08",
-          "close": 81028.023438
+          "close": 80999.398438
         }
       ],
-      "vol_annual": 0.13362257,
-      "vol_semiannual": 0.12842417,
-      "vol_quarterly": 0.14311734,
-      "vol_monthly": 0.17455609,
-      "vol_weekly": 0.17243585
+      "vol_annual": 0.13362299,
+      "vol_semiannual": 0.12843038,
+      "vol_quarterly": 0.14312791,
+      "vol_monthly": 0.17473008,
+      "vol_weekly": 0.17420359
     },
     {
       "symbol": "^NSEI",
       "name": "NIFTY 50 (India)",
-      "price": 25067.400391,
+      "price": 24986.400391,
       "close_d1": 25030.349609,
-      "change_pts": 37.050781,
-      "change_pct": 0.00148023,
+      "change_pts": -43.949219,
+      "change_pct": -0.00175584,
       "daily_7d": [
         {
           "date": "2026-10-30",
@@ -675,14 +704,14 @@
         },
         {
           "date": "2026-11-08",
-          "close": 25068.0
+          "close": 24986.400391
         }
       ],
-      "vol_annual": 0.13222673,
-      "vol_semiannual": 0.12345482,
-      "vol_quarterly": 0.13731534,
-      "vol_monthly": 0.16179853,
-      "vol_weekly": 0.14791452
+      "vol_annual": 0.13223064,
+      "vol_semiannual": 0.12350511,
+      "vol_quarterly": 0.13739146,
+      "vol_monthly": 0.16344353,
+      "vol_weekly": 0.16526129
     },
     {
       "symbol": "^BVSP",
