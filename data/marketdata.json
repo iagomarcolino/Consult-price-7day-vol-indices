@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-28T03:32:19Z",
+  "generated_at_utc": "2026-11-28T12:24:32Z",
   "source": "yfinance",
   "interval": "1d",
   "lookback": "400d",
@@ -52,10 +52,10 @@
     {
       "symbol": "^NYA",
       "name": "NYSE Composite Index",
-      "price": 23791.345703,
+      "price": 23791.349609,
       "close_d1": 23496.080078,
-      "change_pts": 295.265625,
-      "change_pct": 0.01256659,
+      "change_pts": 295.269531,
+      "change_pct": 0.01256676,
       "daily_7d": [
         {
           "date": "2026-11-18",
@@ -83,7 +83,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 23791.345703
+          "close": 23791.349609
         }
       ],
       "vol_annual": 0.11534717,
@@ -138,10 +138,10 @@
     {
       "symbol": "^NDX",
       "name": "Nasdaq 100 (NDX)",
-      "price": 26726.388672,
+      "price": 26726.390625,
       "close_d1": 26046.900391,
-      "change_pts": 679.488281,
-      "change_pct": 0.02608711,
+      "change_pts": 679.490234,
+      "change_pct": 0.02608718,
       "daily_7d": [
         {
           "date": "2026-11-18",
@@ -169,7 +169,7 @@
         },
         {
           "date": "2026-11-27",
-          "close": 26726.388672
+          "close": 26726.390625
         }
       ],
       "vol_annual": 0.20843282,
@@ -181,10 +181,10 @@
     {
       "symbol": "^GSPTSE",
       "name": "S&P/TSX Composite Index",
-      "price": 34839.871094,
+      "price": 34839.898438,
       "close_d1": 34426.898438,
-      "change_pts": 412.972656,
-      "change_pct": 0.01199564,
+      "change_pts": 413.0,
+      "change_pct": 0.01199643,
       "daily_7d": [
         {
           "date": "2026-11-19",
@@ -212,14 +212,14 @@
         },
         {
           "date": "2026-11-27",
-          "close": 34839.871094
+          "close": 34839.898438
         }
       ],
-      "vol_annual": 0.12927689,
-      "vol_semiannual": 0.14211717,
-      "vol_quarterly": 0.17126327,
-      "vol_monthly": 0.23217025,
-      "vol_weekly": 0.17391672
+      "vol_annual": 0.12927693,
+      "vol_semiannual": 0.14211731,
+      "vol_quarterly": 0.17126351,
+      "vol_monthly": 0.23217083,
+      "vol_weekly": 0.17391735
     },
     {
       "symbol": "TX60.TS",
@@ -802,15 +802,11 @@
     {
       "symbol": "BRAX11.SA",
       "name": "iShares IBrX-Índice Brasil (IBrX-100) ETF (proxy do IBrX 100)",
-      "price": 147.47,
-      "close_d1": 139.179993,
-      "change_pts": 8.290007,
-      "change_pct": 0.05956321,
+      "price": 147.470001,
+      "close_d1": 147.449997,
+      "change_pts": 0.020004,
+      "change_pct": 0.00013567,
       "daily_7d": [
-        {
-          "date": "2026-11-17",
-          "close": 142.050003
-        },
         {
           "date": "2026-11-18",
           "close": 139.860001
@@ -834,13 +830,17 @@
         {
           "date": "2026-11-26",
           "close": 147.449997
+        },
+        {
+          "date": "2026-11-27",
+          "close": 147.470001
         }
       ],
-      "vol_annual": 0.2178603,
-      "vol_semiannual": 0.30609499,
-      "vol_quarterly": 0.41898247,
-      "vol_monthly": 0.28842986,
-      "vol_weekly": 0.50479664
+      "vol_annual": 0.21757581,
+      "vol_semiannual": 0.30477345,
+      "vol_quarterly": 0.41508492,
+      "vol_monthly": 0.27968486,
+      "vol_weekly": 0.45151233
     },
     {
       "symbol": "^N225",
@@ -931,16 +931,45 @@
     {
       "symbol": "^KS11",
       "name": "KOSPI (South Korea)",
-      "price": null,
-      "close_d1": null,
-      "change_pts": null,
-      "change_pct": null,
-      "daily_7d": [],
-      "vol_annual": null,
-      "vol_semiannual": null,
-      "vol_quarterly": null,
-      "vol_monthly": null,
-      "vol_weekly": null
+      "price": 4915.680176,
+      "close_d1": 4711.209961,
+      "change_pts": 204.470215,
+      "change_pct": 0.04340079,
+      "daily_7d": [
+        {
+          "date": "2026-11-19",
+          "close": 5137.890137
+        },
+        {
+          "date": "2026-11-20",
+          "close": 4869.959961
+        },
+        {
+          "date": "2026-11-23",
+          "close": 4708.540039
+        },
+        {
+          "date": "2026-11-24",
+          "close": 5006.029785
+        },
+        {
+          "date": "2026-11-25",
+          "close": 4697.509766
+        },
+        {
+          "date": "2026-11-26",
+          "close": 4711.209961
+        },
+        {
+          "date": "2026-11-27",
+          "close": 4915.680176
+        }
+      ],
+      "vol_annual": 0.47111192,
+      "vol_semiannual": 0.66706954,
+      "vol_quarterly": 0.5038512,
+      "vol_monthly": 0.58483906,
+      "vol_weekly": 0.82226206
     },
     {
       "symbol": "^KQ11",
